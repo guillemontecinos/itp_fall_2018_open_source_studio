@@ -1,13 +1,5 @@
-#
-
-FLOSS
-Pull Request
-Community
-Taeyoon
-(Non) politics in technology
-Decentralization
-
-Community
+# Open source community and its role in an apolitical era
+*Week 2 assignment for Open Source Studio class, ITP, Fall 2018, Guillermo Montecinos*
 
 Human beings as social individuals are political individuals. We have built tribes, families, companies, countries and confederations of countries. We have built organizations that need base communities to function.
 And every organization we have built need an structure that allow the political process flow properly inside it, some of them structured and some unstructured.
