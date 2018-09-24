@@ -1,4 +1,4 @@
-# Assignment week 3
+# Rules clear for healthy relationships and the shadow of the past
 
 Answering myself regarding last week assignment, open source's community can't be lightly seen as a community of love moved by common wellness goals. This is a community made of persons whom in some cases care about interpersonal relationships by having kind manners, but in other don't. And as in off-line relationships people can be rude, bigot and disrespectful with diversity.
 
