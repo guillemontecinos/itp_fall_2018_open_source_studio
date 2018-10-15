@@ -17,3 +17,7 @@ In terms of code the site seems to accomplish the main criteria established in t
 In terms of design, it can be seen that the color contrast of the main text meets the WCAG 2.1 criteria of a 4.5:1 ratio, as can be seen in the next image.
 
 ![](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/week_6/ml5_3.png)
+
+This is not accomplished in by the title "Friendly Machine Learning for the Web." of the web which is written in purple color over the same background of the main text, holding a contrast ratio of just 3.8:1.
+
+![](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/week_6/ml5_4.png)
