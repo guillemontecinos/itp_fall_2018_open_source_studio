@@ -21,3 +21,11 @@ In terms of design, it can be seen that the color contrast of the main text meet
 This is not accomplished in by the title "Friendly Machine Learning for the Web." of the web which is written in purple color over the same background of the main text, holding a contrast ratio of just 3.8:1.
 
 ![](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/week_6/ml5_4.png)
+
+On the other hand, the website was audited by using Mac VoiceOver. Accordingly with WAVE results, the site seems to be well organized, well labeled and easy to navigate with the screen reader. Despite the above, there were two elements of the site that are hard to navigate with screen reader due the labelling used. The first is the righter box with the image classification example which is settled on a frame with no name or label that explains the content of the frame.
+
+![](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/week_6/ml5_5.png)
+
+The second element is the ITP logo at the bottom of the site which is mislabeled with the text "Facebook Open Source" instead of "ITP".
+
+![](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/week_6/ml5_6.png)
