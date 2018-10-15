@@ -29,3 +29,11 @@ On the other hand, the website was audited by using Mac VoiceOver. Accordingly w
 The second element is the ITP logo at the bottom of the site which is mislabeled with the text "Facebook Open Source" instead of "ITP".
 
 ![](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/week_6/ml5_6.png)
+
+In summary, the main page of the ml5.js project mostly accomplishes the WCAG recommendations for accessible web design and develop. Apart from the main page, other issues can be recognized at the "Getting Started" page. Here it can be noticed that the image at the image classification example -displayed at the end of the page- has no alt text, which means it cannot be read by the screen reader.
+
+![](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/week_6/ml5_7.png)
+
+Additionally, despite the left menu text accomplishes the color contrast criteria, it does only for large font size but not for small ones. Particularly, ml5.js uses small font sizes which can prejudice accessibility for low vision people.
+
+![](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/week_6/ml5_8.png)
