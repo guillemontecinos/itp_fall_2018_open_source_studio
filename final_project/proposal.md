@@ -26,7 +26,11 @@ The final audience of this project are, on one hand, all the non-English speakin
 
 ## Address Greater Landscape
 
-_Please address how the open source project you are creating or contributing to fits into a greater field or tech landscape. Who has done similar work before? How are you building off this, and how? What sets your project apart from your colleagues?_
+p5.js is an open source community-driven project created by Lauren McCarthy and the [Processing Foundation](https://processingfoundation.org) as a web re-interpretation of Processing. Technically, p5.js is a set of functions for JavaScript that allows the user to create visual and sound interactive applications on the browser, with a easy-to-use syntax.
+
+As a part of the Processing Foundation, p5.js was intended as a vehicle for spreading coding literacy between the non-programmer community, specially the under-represented and discriminated ones. Furthermore, p5.js is a [Free Libre Open Source Software (FLOSS)](https://medium.com/processing-foundation/processing-and-floss-d35aa4607f4c) and therefore an alternative to corporate and exclusive softwares.
+
+<!-- _Please address how the open source project you are creating or contributing to fits into a greater field or tech landscape. Who has done similar work before? How are you building off this, and how? What sets your project apart from your colleagues?_ -->
 
 ## Deliverables
 
