@@ -14,13 +14,13 @@ _Write an abstract -- describe your idea in a short paragraph, 250 words maximum
 
 ## Define the problem.
 
-The [internationalization](https://p5js.org/es/) of p5.js through it's website has been a great decision in terms of spreading p5.js' ideals and making programming easier to non-English speaking users. This process has meant a great effort in order to designing a flexible website structure and keeping track of the changes made in the English. Currently there are two official translation: Spanish and Chinese. Particularly the Spanish version has experienced delays in the translation due to the last reference issues incorporated.
+The [internationalization](https://p5js.org/es/) of p5.js through it's website has been a great decision in terms of spreading p5.js' ideals and making programming easier to non-English speaking users. This process has meant a great effort in order to designing a flexible website structure and keeping track of the changes made in the English. Currently there are two official translations: Spanish and Chinese. The Spanish version hasn't been thoroughly checked by other people and there are also some missing translations due to the ever-evolving nature of the website, with new additions to the reference, examples and tutorials.
 
-In terms of structure, p5.js website has [two](https://github.com/processing/p5.js-website#internationalization-i18n-and-structure) ways of construction. The Reference pages are entirely written in English and swapped out using JavaScript. On the other hand, the non-reference pages are developed in HTML using handlers which display the text contents in the language the page is to be rendered, which are stored in .yml files.
+In terms of structure, p5.js website has [two](https://github.com/processing/p5.js-website#internationalization-i18n-and-structure) ways of building. The Reference pages are entirely written in English and swapped out using JavaScript. On the other hand, the non-reference pages are developed in HTML using handlers which display the text contents in the language the page is to be rendered, which are stored in .yml files.
 
-All the information for website translation can be found in the [README](https://github.com/processing/p5.js-website) file of the website repo, but it seems to be not clear at all, so it can be wrapped in a separated file with examples and a more detailed explanation as it's said in the [issue #23](https://github.com/Open-Source-Studio-at-ITP/Final-Projects/issues/23) of the Final Projects repo.
+All the information for the website translation can be found in the [README](https://github.com/processing/p5.js-website) file of the website repo, but it can still be improved, so that it can be wrapped in a separated file with examples and a more detailed explanation as it's said in the [issue #23](https://github.com/Open-Source-Studio-at-ITP/Final-Projects/issues/23) of the Final Projects repo.
 
-The final audience of this project are, on one hand, all the non-English speaking users of p5.js -this includes coders, educators and students-, and on the other hand, all users and collaborators that are interested in work in new translations of the website.
+The final audience of this project are, on one hand, all the non-English speaking users of p5.js -this includes coders, educators and students-, and on the other hand, all users and collaborators that are interested in developing and contributing new translations of the website.
 
 <!-- _What is the current state of things? What issue do you wish to solve and why? Who is the audience?_ -->
 
@@ -34,10 +34,10 @@ As a part of the Processing Foundation, p5.js was intended as a vehicle for spre
 
 ## Deliverables
 
-* Review and fix Spanish Website translation
-* Review and fix Spanish Reference translations
-* Review and fix Spanish Examples translations
-* Write a TRANSLATION.md document with all guidelines and examples for future website translations
+* Review and fix Spanish p5.js website translation
+* Review and fix Spanish p5.js reference translations
+* Review and fix Spanish p5.js examples translations
+* Write a TRANSLATION.md document with all guidelines and examples for future website translations, with a focus on first-time contributors to the project and non-English speakers.
 
 _Propose a clear list of deliverables._
 
@@ -71,7 +71,7 @@ This project will be completed over 5 weeks (Nov 6 - Dec 11). Describe a timelin
 
 ## Documentation
 
-I will document this project in my own [OSS repo](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio) through posts published in the Final Project folder. Additionally, the project progress will be tracked on issues I'll post in the [p5.js website](https://github.com/processing/p5.js-website/) repo and the final pull requests I'll commit when the project is finished. I'll make an effort to cross-reference post and issues/PRs.
+I will document this project in my own [OSS repo](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio) through posts published in the Final Project folder. Additionally, the project progress will be tracked on issues I'll post in the p5.js repo and the final pull requests I'll commit when the project is finished. I'll make an effort to cross-reference post and issues/PRs.
 
 <!-- _Describe your plan for documentation. Will you keep a blog? Make videos? Some project management tool? Track everything on GitHub as issues?_ -->
 
