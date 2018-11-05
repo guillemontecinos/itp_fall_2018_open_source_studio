@@ -4,7 +4,7 @@
 
 **Tracking of p5.js Spanish website translation and development of a translation guide (for any language)**
 
-*This project consist in a collaboration with the internationalization process of p5.js, which has been driven collaborators working in framework development and translation of content. My project proposes a tracking and editing of the former Spanish translation. A guideline document will also be written for new translations based on the existing translation documentation in the p5.js github repo. This project will be developed for first-time contributors and non-English speakers.*
+*This project consist in a collaboration with the internationalization process of p5.js, which has been driven collaborators working in framework development and translation of content. My project proposes a tracking and editing of the former Spanish translation. A guideline document will also be written for new translations based on the existing translation documentation in the p5.js Github repo. This project will be developed for first-time contributors and non-English speakers.*
 
 <!-- _Write an abstract -- describe your idea in a short paragraph, 250 words maximum._ -->
 
@@ -34,7 +34,7 @@ As a part of the Processing Foundation, p5.js was intended as a vehicle for spre
 
 ## Deliverables
 
-This collaboration will be split in two parts: (1) the track, correction and translation of non translated contents of Spanish website in order to solve the gaps between the last translation done by @montoyamoraga and the last modifications an adds on p5.js reference and examples, and (2) the development of a TRANSLATION.md document in which all the guidelines and examples for future translations of the website are wrapped, with a focus on first-time contributors to the project and non-English speakers.
+This collaboration will be split in two parts: (1) the track, correction and translation of non translated contents of Spanish website in order to solve the gaps between the last translation done by [Aarón Montoya-Moraga](https://github.com/montoyamoraga) and the last modifications an adds on p5.js reference and examples, and (2) the development of a TRANSLATION.md document in which all the guidelines and examples for future translations of the website are wrapped, with a focus on first-time contributors to the project and non-English speakers.
 
 1. Track, translation and correction of Spanish p5.js website
 2. Track, translation and correction of Spanish p5.js reference
