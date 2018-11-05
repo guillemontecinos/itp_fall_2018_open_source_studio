@@ -2,9 +2,9 @@
 
 ## Project Title
 
-**p5.js Spanish website translation tracking and development of a guide for new translations**
+**Tracking of p5.js Spanish website translation and development of a translation guide (for any language)**
 
-*This project consist in a collaboration with the internationalization of p5.js, which has been driven by many collaborations in terms of framework development and translations writing. A tracking and fixing of the former Spanish translation will be developed. A guide document will also be written for new translations from the existing translation documentation in the p5.js repo. This project will be focused on first-time contributors to the project and non-English speakers.*
+*This project consist in a collaboration with the internationalization process of p5.js, which has been driven collaborators working in framework development and translation of content. My project proposes a tracking and editing of the former Spanish translation. A guideline document will also be written for new translations based on the existing translation documentation in the p5.js github repo. This project will be developed for first-time contributors and non-English speakers.*
 
 <!-- _Write an abstract -- describe your idea in a short paragraph, 250 words maximum._ -->
 
@@ -20,7 +20,7 @@ In terms of structure, p5.js website has [two](https://github.com/processing/p5.
 
 All the information for the website translation can be found in the [README](https://github.com/processing/p5.js-website) file of the website repo, but it can be still improved, so that it can be wrapped in a separated file with examples and a more detailed explanation as it's said in the [issue #23](https://github.com/Open-Source-Studio-at-ITP/Final-Projects/issues/23) of the Final Projects repo.
 
-The final audience of this project are non-English speaking first-time p5.js contributors and users -this includes coders, educators and students-, and collaborators interested in develop and contribute in new translations of the website.
+The final audience of this project are non-English speaking first-time p5.js contributors and users -this includes coders, educators and students-, and collaborators interested in developping and contributing in the translation of the website.
 
 <!-- _What is the current state of things? What issue do you wish to solve and why? Who is the audience?_ -->
 
