@@ -55,23 +55,26 @@ This project will be completed over 5 weeks (Nov 6 - Dec 11). Describe a timelin
 
 ### Week 1
 
-- Task list
+* Track, translation and correction of Spanish p5.js website
+* Track, translation and correction of Spanish p5.js reference 1/2
 
 ### Week 2
 
-- Task list
+* Track, translation and correction of Spanish p5.js reference 2/2
 
 ### Week 3
 
-- Task list
+* Track, translation and correction of Spanish p5.js examples 1/2
 
 ### Week 4
 
-- Task list
+* Track, translation and correction of Spanish p5.js examples 2/2
+* Write TRANSLATION.md 1/2
 
 ### Week 5
 
-- Task list
+* Write TRANSLATION.md 2/2
+* Final documentation
 
 ## Documentation
 
