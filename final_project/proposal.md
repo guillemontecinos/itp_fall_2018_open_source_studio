@@ -22,7 +22,7 @@ All the information for website translation can be found in the [README](https:/
 
 The final audience of this project are, on one hand, all the non-English speaking users of p5.js -this includes coders, educators and students-, and on the other hand, all users and collaborators that are interested in work in new translations of the website.
 
-_What is the current state of things? What issue do you wish to solve and why? Who is the audience?_
+<!-- _What is the current state of things? What issue do you wish to solve and why? Who is the audience?_ -->
 
 ## Address Greater Landscape
 
@@ -30,7 +30,10 @@ _Please address how the open source project you are creating or contributing to 
 
 ## Deliverables
 
-* Review and fix of Spanish website translation
+* Review and fix Spanish Website translation
+* Review and fix Spanish Reference translations
+* Review and fix Spanish Examples translations
+* Write a TRANSLATION.md document with all guidelines and examples for future website translations
 
 _Propose a clear list of deliverables._
 
@@ -72,11 +75,13 @@ _What challenges are there related to your project in terms of Web Content Acces
 
 ## Mentoring
 
-* Lauren McCarthy
-* Kenneth Lim
-* Aarón Montoya-Moraga
+For this project a mentor guide will be needed mostly for organizing and structuring the output guide/wrapping file. I propose the following highly experienced people for this:
 
-_List some possible mentors for this project. Describe what kinds of help you need (technical, conceptual, outreach, etc.)_
+* Lauren McCarthy
+* Aarón Montoya-Moraga
+* Kenneth Lim
+
+<!-- _List some possible mentors for this project. Describe what kinds of help you need (technical, conceptual, outreach, etc.)_ -->
 
 ## More about you
 
@@ -86,9 +91,9 @@ I am also an educator and co-founder of a media arts school in Chile called [Cod
 
 This project is framed within my previous work in the field of FLOSS education and with the Processing Foundation (on 2017 I [spoke](https://www.youtube.com/watch?v=Ix5RTKRJW0A&index=6&list=PLMVpERuYgvujgdaBluS0_LLLn8T83laaa) in the Processing Community Day @ MIT).
 
-You can check my work on [Github](https://github.com/guillemontecinos) or by visiting my [Portfolio](http://guillemontecinos.cl/).
+You can check my work on [Github](https://github.com/guillemontecinos) or visiting my [Portfolio](http://guillemontecinos.cl/).
 
-_What are your interests and experience? Have you contributed to other open source projects? What barriers or concerns have kept you from contributing to free and open source software? If you have an online portfolio, github account, or other relevant documentation of your work, please include links. If the project is a collaboration, a section should be included for each collaborator._
+<!-- _What are your interests and experience? Have you contributed to other open source projects? What barriers or concerns have kept you from contributing to free and open source software? If you have an online portfolio, github account, or other relevant documentation of your work, please include links. If the project is a collaboration, a section should be included for each collaborator._ -->
 
 ## References
 
