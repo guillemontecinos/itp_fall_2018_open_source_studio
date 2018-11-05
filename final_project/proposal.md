@@ -71,12 +71,22 @@ _Describe your plan for documentation. Will you keep a blog? Make videos? Some p
 _What challenges are there related to your project in terms of Web Content Accessibility Requirements: [see the Accessibility assignment as a reference](https://github.com/Open-Source-Studio-at-ITP/Syllabus/blob/source/accessibility-assignment.md#instructions)._
 
 ## Mentoring
-> Lauren McCarthy
-> Kenneth Lim
-> Aarón Montoya-Moraga
+
+* Lauren McCarthy
+* Kenneth Lim
+* Aarón Montoya-Moraga
+
 _List some possible mentors for this project. Describe what kinds of help you need (technical, conceptual, outreach, etc.)_
 
 ## More about you
+
+I'm interested in the weird space where technology and art intersects and can describe myself as a technologist and a musician.
+
+I am also an educator and co-founder of a media arts school in Chile called [Coded Escuela](http://codedescuela.cl), where a group of artists and tech people teach creative code and FLOSS tools to creative people. With Coded we have contributed with the internationalization of Processing in Spanish by teaching creative coding with p5.js and with the translation of the website and book which was leaded by [Aarón Montoya-Moraga](http://montoyamoraga.io/) and supported by us.
+
+This project is framed within my previous work in the field of FLOSS education and with the Processing Foundation (on 2017 I [spoke](https://www.youtube.com/watch?v=Ix5RTKRJW0A&index=6&list=PLMVpERuYgvujgdaBluS0_LLLn8T83laaa) in the Processing Community Day @ MIT).
+
+You can check my work on [Github](https://github.com/guillemontecinos) or by visiting my [Portfolio](http://guillemontecinos.cl/).
 
 _What are your interests and experience? Have you contributed to other open source projects? What barriers or concerns have kept you from contributing to free and open source software? If you have an online portfolio, github account, or other relevant documentation of your work, please include links. If the project is a collaboration, a section should be included for each collaborator._
 
