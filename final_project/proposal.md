@@ -34,18 +34,20 @@ As a part of the Processing Foundation, p5.js was intended as a vehicle for spre
 
 ## Deliverables
 
-This collaboration will be split in (1) the track and translation of non translated contents of Spanish website, and (2) the develop of a TRANSLATION.md document in which all the guidelines and examples for future translations of the website are wrapped.
+This collaboration will be split in (1) the track and translation of non translated contents of Spanish website, and (2) the development of a TRANSLATION.md document in which all the guidelines and examples for future translations of the website are wrapped, with a focus on first-time contributors to the project and non-English speakers.
 
-* Review and fix Spanish Website translation
-* Review and fix Spanish Reference translations
-* Review and fix Spanish Examples translations
-* Write a TRANSLATION.md document with all guidelines and examples for future website translations
+1. Track and translation Spanish p5.js website
+2. Track and translation Spanish p5.js reference
+3. Track and translation Spanish p5.js examples
+4. Write TRANSLATION.md
 
-_Propose a clear list of deliverables._
+<!-- _Propose a clear list of deliverables._ -->
 
 ## Implementation
 
-_Describe the technical details about your implementation and development process._
+This project won't require particular technical skills besides Git, Github, basic JS and basic HTML. The implementation of this collaboration will consist in the modification of HTML, JS and .yml files where the translation content is stored, and the creation of a Markdown file.
+
+<!-- _Describe the technical details about your implementation and development process._ -->
 
 ## Timeline
 
@@ -73,7 +75,7 @@ This project will be completed over 5 weeks (Nov 6 - Dec 11). Describe a timelin
 
 ## Documentation
 
-I will document this project in my own [OSS repo](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio) through posts published in the Final Project folder. Additionally, the project progress will be tracked on issues I'll post in the [p5.js website](https://github.com/processing/p5.js-website/) repo and the final pull requests I'll commit when the project is finished. I'll make an effort to cross-reference post and issues/PRs.
+I will document this project in my own [OSS repo](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio) through posts published in the Final Project folder. Additionally, the project progress will be tracked on issues I'll post in the p5.js repo and the final pull requests I'll commit when the project is finished. I'll make an effort to cross-reference post and issues/PRs.
 
 <!-- _Describe your plan for documentation. Will you keep a blog? Make videos? Some project management tool? Track everything on GitHub as issues?_ -->
 
