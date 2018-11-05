@@ -14,9 +14,9 @@ _Write an abstract -- describe your idea in a short paragraph, 250 words maximum
 
 ## Define the problem.
 
-The internationalization of p5.js through it's website has been a great decision in terms of spreading p5.js' ideals and making programming easier to non-English speaking users. This process has meant maintenance efforts in order to designing a flexible structure for the website and keeping track of changes made in the English, and particularly in Spanish has experienced delays in the translation due to the effort it requires. Currently there are two official translation: Spanish and Chinese.
+The [internationalization](https://p5js.org/es/) of p5.js through it's website has been a great decision in terms of spreading p5.js' ideals and making programming easier to non-English speaking users. This process has meant a great effort in order to designing a flexible website structure and keeping track of the changes made in the English. Currently there are two official translation: Spanish and Chinese. Particularly the Spanish version has experienced delays in the translation due to the last reference issues incorporated.
 
-p5.js website has [two main structures](https://github.com/processing/p5.js-website#internationalization-i18n-and-structure): the Reference and all other pages that are not the Reference. The non-Reference pages are developed in HTML files that define the structure and call handlers for each written content. These handlers display the text contents in the language the page is to be rendered which are stored in .yml files. On the other hand, the Reference pages are entirely written in English and swapped out using JS.
+In terms of structure, p5.js website has [two](https://github.com/processing/p5.js-website#internationalization-i18n-and-structure) ways of construction. The Reference pages are entirely written in English and swapped out using JavaScript. On the other hand, the non-reference pages are developed in HTML using handlers which display the text contents in the language the page is to be rendered, which are stored in .yml files.
 
 All the information for website translation can be found in the [README](https://github.com/processing/p5.js-website) file of the website repo, but it seems to be not clear at all, so it can be wrapped in a separated file with examples and a more detailed explanation as it's said in the [issue #23](https://github.com/Open-Source-Studio-at-ITP/Final-Projects/issues/23) of the Final Projects repo.
 
@@ -92,7 +92,7 @@ I'm interested in the weird space where technology and art intersects and can de
 
 I am also an educator and co-founder of a media arts school in Chile called [Coded Escuela](http://codedescuela.cl), where a group of artists and tech people teach creative code and FLOSS tools to creative people. With Coded we have contributed with the internationalization of Processing in Spanish by teaching creative coding with p5.js and with the translation of the website and book which was leaded by [Aarón Montoya-Moraga](http://montoyamoraga.io/) and supported by us.
 
-This project is framed within my previous work in the field of FLOSS education and with the Processing Foundation (on 2017 I [spoke](https://www.youtube.com/watch?v=Ix5RTKRJW0A&index=6&list=PLMVpERuYgvujgdaBluS0_LLLn8T83laaa) in the Processing Community Day @ MIT).
+This project is framed within my previous work in the field of FLOSS education and with the Processing Foundation (on 2017 I [spoke](https://www.youtube.com/watch?v=Ix5RTKRJW0A&index=6&list=PLMVpERuYgvujgdaBluS0_LLLn8T83laaa) in the Processing Community Day @ MIT Media Lab).
 
 You can check my work on [Github](https://github.com/guillemontecinos) or visiting my [Portfolio](http://guillemontecinos.cl/).
 
