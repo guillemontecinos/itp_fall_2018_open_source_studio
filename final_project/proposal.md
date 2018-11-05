@@ -2,7 +2,7 @@
 
 ## Project Title
 
-p5.js Spanish website translation tracking and correction and development of a guide for new translations
+**p5.js Spanish website translation tracking and correction and development of a guide for new translations**
 
 *This project consist in a collaboration with the internationalization of p5.js, which has been driven by many collaborations in terms of framework development and translations writing. A tracking and fixing of the former Spanish translation will be developed. A guide document will also be written for new translations from the existing translation documentation in the p5.js repo. This project will be focused on first-time contributors to the project and non-English speakers.*
 
