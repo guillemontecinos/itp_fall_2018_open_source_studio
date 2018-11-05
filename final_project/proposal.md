@@ -67,6 +67,9 @@ This project will be completed over 5 weeks (Nov 6 - Dec 11). Describe a timelin
 
 ## Documentation
 
+* Github posting on my personal repo
+* Github tracking with issues on p5.js repo
+
 _Describe your plan for documentation. Will you keep a blog? Make videos? Some project management tool? Track everything on GitHub as issues?_
 
 ## Accessibility
