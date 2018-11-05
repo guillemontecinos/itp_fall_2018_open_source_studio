@@ -71,7 +71,7 @@ This project will be completed over 5 weeks (Nov 6 - Dec 11). Describe a timelin
 
 ## Documentation
 
-I will document this project in my own [OSS repo](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio) through posts published in the Final Project folder. Additionally the project progress may be tracked by issues I'll post in the p5.js repo and the final pull requests I'll commit when the project is finished. I'll make an effort to cross-reference post and issues/PRs.
+I will document this project in my own [OSS repo](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio) through posts published in the Final Project folder. Additionally, the project progress will be tracked on issues I'll post in the p5.js repo and the final pull requests I'll commit when the project is finished. I'll make an effort to cross-reference post and issues/PRs.
 
 <!-- _Describe your plan for documentation. Will you keep a blog? Make videos? Some project management tool? Track everything on GitHub as issues?_ -->
 
