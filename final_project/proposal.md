@@ -34,11 +34,11 @@ As a part of the Processing Foundation, p5.js was intended as a vehicle for spre
 
 ## Deliverables
 
-This collaboration will be split in (1) the track and translation of non translated contents of Spanish website, and (2) the development of a TRANSLATION.md document in which all the guidelines and examples for future translations of the website are wrapped, with a focus on first-time contributors to the project and non-English speakers.
+This collaboration will be split in two parts: (1) the track, correction and translation of non translated contents of Spanish website in order to solve the gaps between the last translation done by @montoyamoraga and the last modifications an adds on p5.js reference and examples, and (2) the development of a TRANSLATION.md document in which all the guidelines and examples for future translations of the website are wrapped, with a focus on first-time contributors to the project and non-English speakers.
 
-1. Track and translation Spanish p5.js website
-2. Track and translation Spanish p5.js reference
-3. Track and translation Spanish p5.js examples
+1. Track, translation and correction of Spanish p5.js website
+2. Track, translation and correction of Spanish p5.js reference
+3. Track, translation and correction of Spanish p5.js examples
 4. Write TRANSLATION.md
 
 <!-- _Propose a clear list of deliverables._ -->
