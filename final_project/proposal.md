@@ -2,11 +2,11 @@
 
 ## Project Title
 
-p5.js website translation collaboration
+p5.js Spanish website translation tracking and correction and development of a guide for new translations
 
-This is a collaboration with p5.js
+*This project consist in a collaboration with the internationalization of p5.js, which has been driven by many collaborations in terms of framework development and translations writing. A tracking and fixing of the former Spanish translation will be developed. A guide document will also be written for new translations from the existing translation documentation in the p5.js repo. This project will be focused on first-time contributors to the project and non-English speakers.*
 
-_Write an abstract -- describe your idea in a short paragraph, 250 words maximum._
+<!-- _Write an abstract -- describe your idea in a short paragraph, 250 words maximum._ -->
 
 ## Team Members
 
@@ -20,7 +20,7 @@ In terms of structure, p5.js website has [two](https://github.com/processing/p5.
 
 All the information for website translation can be found in the [README](https://github.com/processing/p5.js-website) file of the website repo, but it seems to be not clear at all, so it can be wrapped in a separated file with examples and a more detailed explanation as it's said in the [issue #23](https://github.com/Open-Source-Studio-at-ITP/Final-Projects/issues/23) of the Final Projects repo.
 
-The final audience of this project are, on one hand, all the non-English speaking users of p5.js -this includes coders, educators and students-, and on the other hand, all users and collaborators that are interested in work in new translations of the website.
+The final audience of this project are non-English speaking first-time p5.js contributors and users -this includes coders, educators and students-, and collaborators interested in work in new translations of the website.
 
 <!-- _What is the current state of things? What issue do you wish to solve and why? Who is the audience?_ -->
 
@@ -56,24 +56,24 @@ This project will be completed over 5 weeks (Nov 6 - Dec 11). Describe a timelin
 ### Week 1
 
 * Track, translation and correction of Spanish p5.js website
-* Track, translation and correction of Spanish p5.js reference 1/2
+* Track, translation and correction of Spanish p5.js reference (1/2)
 
 ### Week 2
 
-* Track, translation and correction of Spanish p5.js reference 2/2
+* Track, translation and correction of Spanish p5.js reference (2/2)
 
 ### Week 3
 
-* Track, translation and correction of Spanish p5.js examples 1/2
+* Track, translation and correction of Spanish p5.js examples (1/2)
 
 ### Week 4
 
-* Track, translation and correction of Spanish p5.js examples 2/2
-* Write TRANSLATION.md 1/2
+* Track, translation and correction of Spanish p5.js examples (2/2)
+* Write TRANSLATION.md (1/2)
 
 ### Week 5
 
-* Write TRANSLATION.md 2/2
+* Write TRANSLATION.md (2/2)
 * Final documentation
 
 ## Documentation
