@@ -83,8 +83,8 @@ I will document this project in my own [OSS repo](https://github.com/guillemonte
 <!-- _Describe your plan for documentation. Will you keep a blog? Make videos? Some project management tool? Track everything on GitHub as issues?_ -->
 
 ## Accessibility
-
-_What challenges are there related to your project in terms of Web Content Accessibility Requirements: [see the Accessibility assignment as a reference](https://github.com/Open-Source-Studio-at-ITP/Syllabus/blob/source/accessibility-assignment.md#instructions)._
+TODO
+<!-- _What challenges are there related to your project in terms of Web Content Accessibility Requirements: [see the Accessibility assignment as a reference](https://github.com/Open-Source-Studio-at-ITP/Syllabus/blob/source/accessibility-assignment.md#instructions)._ -->
 
 ## Mentoring
 
