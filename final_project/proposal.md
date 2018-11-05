@@ -14,13 +14,13 @@ p5.js Spanish website translation tracking and correction and development of a g
 
 ## Define the problem.
 
-The [internationalization](https://p5js.org/es/) of p5.js through it's website has been a great decision in terms of spreading p5.js' ideals and making programming easier to non-English speaking users. This process has meant a great effort in order to designing a flexible website structure and keeping track of the changes made in the English. Currently there are two official translation: Spanish and Chinese. Particularly the Spanish version has experienced delays in the translation due to the last reference issues incorporated.
+The [internationalization](https://p5js.org/es/) of p5.js through it's website has been a great decision in terms of spreading p5.js' ideals and making programming easier to non-English speaking users. This process has meant a great effort in order to designing a flexible website structure and keeping track of the changes made in the English. Currently there are two official translation: Spanish and Chinese. The Spanish version hasn't been thoroughly checked by other people and there are also some missing translations due to the ever-evolving nature of the website, with new additions to the reference, examples and tutorials.
 
-In terms of structure, p5.js website has [two](https://github.com/processing/p5.js-website#internationalization-i18n-and-structure) ways of construction. The Reference pages are entirely written in English and swapped out using JavaScript. On the other hand, the non-reference pages are developed in HTML using handlers which display the text contents in the language the page is to be rendered, which are stored in .yml files.
+In terms of structure, p5.js website has [two](https://github.com/processing/p5.js-website#internationalization-i18n-and-structure) ways of building. The Reference pages are entirely written in English and swapped out using JavaScript. On the other hand, the non-reference pages are developed in HTML using handlers which display the text contents in the language the page is to be rendered, which are stored in .yml files.
 
-All the information for website translation can be found in the [README](https://github.com/processing/p5.js-website) file of the website repo, but it seems to be not clear at all, so it can be wrapped in a separated file with examples and a more detailed explanation as it's said in the [issue #23](https://github.com/Open-Source-Studio-at-ITP/Final-Projects/issues/23) of the Final Projects repo.
+All the information for the website translation can be found in the [README](https://github.com/processing/p5.js-website) file of the website repo, but it can be still improved, so that it can be wrapped in a separated file with examples and a more detailed explanation as it's said in the [issue #23](https://github.com/Open-Source-Studio-at-ITP/Final-Projects/issues/23) of the Final Projects repo.
 
-The final audience of this project are non-English speaking first-time p5.js contributors and users -this includes coders, educators and students-, and collaborators interested in work in new translations of the website.
+The final audience of this project are non-English speaking first-time p5.js contributors and users -this includes coders, educators and students-, and collaborators interested in develop and contribute in new translations of the website.
 
 <!-- _What is the current state of things? What issue do you wish to solve and why? Who is the audience?_ -->
 
