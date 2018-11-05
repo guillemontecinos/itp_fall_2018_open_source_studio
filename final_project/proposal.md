@@ -34,6 +34,8 @@ As a part of the Processing Foundation, p5.js was intended as a vehicle for spre
 
 ## Deliverables
 
+This collaboration will be split in (1) the track and translation of non translated contents of Spanish website, and (2) the develop of a TRANSLATION.md document in which all the guidelines and examples for future translations of the website are wrapped.
+
 * Review and fix Spanish Website translation
 * Review and fix Spanish Reference translations
 * Review and fix Spanish Examples translations
