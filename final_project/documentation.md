@@ -1,2 +1,2 @@
 # Final Project Documentation
-This documentation corresponds to the project **Tracking of p5.js Spanish website translation and development of a translation guide (for any language)**
+This is the documentation of the project [**Tracking of p5.js Spanish website translation and development of a translation guide (for any language)**](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/proposal.md), developed for the class [**Open Source Studio**](https://github.com/Open-Source-Studio-at-ITP/) @ NYU ITP, Fall 2018.
