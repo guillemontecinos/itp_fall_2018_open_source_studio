@@ -8,6 +8,7 @@ This is the documentation of the project [**Tracking of p5.js Spanish website tr
 
 ### Advances
 #### [Forking p5.js website repo](https://github.com/guillemontecinos/p5.js-website) to my GitHub account
+The [original repo](https://github.com/processing/p5.js-website) was forked to my account and cloned into my local.
 
 ## Week 2
 ### Week 2 Goals
