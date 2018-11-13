@@ -21,13 +21,33 @@ Translation check by page and handlers. Not mentioned handlers con be considered
 * envirnoment9: modified
 * envirnoment11: modified
 * your-first-sketch2: modified
-* **Note**: [**Using p5 with a screen reader**](https://p5js.org/es/learn/p5-screen-reader.html) page is not translated yet.
+* **[Using p5 with a screen reader](https://p5js.org/es/learn/p5-screen-reader.html) page is not translated yet.**
 * your-first-sketch9: modified
 * your-first-sketch10: modified
 * your-first-sketch12: modified
 
 #### [Commit November 12th, 2018](https://github.com/guillemontecinos/p5.js-website/commit/c01572279342265c4f03fcfd9894f710fb86672f)
 The above [Translations Check](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/documentation.md#translation-check) were committed to my repo's fork and pulled to the Processing repo by the [Pull Request](https://github.com/processing/p5.js-website/pull/288).
+
+##### Bibliotecas *https://p5js.org/es/libraries/*
+
+* **[Link to p5.dom library](https://p5js.org/es/reference/#/libraries/p5.dom) is not translated yet.**
+* **[Link to p5.sound library](https://p5js.org/es/reference/#/libraries/p5.sound) is not translated yet.**
+* **[Link to p5.accessibility](https://github.com/processing/p5.accessibility) goes to a github .md file in English.**
+* Note: Contributed libraries links were not reviewed.
+* using-a-library1: modified
+* using-a-library2: modified
+* create-your-own1: modified
+
+##### Aprender *https://p5js.org/es/learn/*
+* learn1: modified
+* **[Link to p5.js overview](https://github.com/processing/p5.js/wiki/p5.js-overview) goes to p5.js wiki @ Github. Not translated yet.**
+* **[Link to Processing transition](https://github.com/processing/p5.js/wiki/Processing-transition) goes to p5.js wiki @ Github. Not translated yet.**
+* **[Link to Local Server](https://github.com/processing/p5.js/wiki/Local-server) goes to p5.js wiki @ Github. Not translated yet.**
+* **[Link to Using p5 with a screen reader](https://p5js.org/es/learn/p5-screen-reader.html) page is not translated yet.**
+* **[Link to node.js and socket.io](https://github.com/processing/p5.js/wiki/p5.js,-node.js,-socket.io) goes to p5.js wiki @ Github. Not translated yet.**
+* **[Link to Beyond the canvas](https://github.com/processing/p5.js/wiki/Beyond-the-canvas) goes to p5.js wiki @ Github. Not translated yet.**
+* **[Link to Getting started with WebGL in p5](https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5) goes to p5.js wiki @ Github. Not translated yet.**
 
 ## Week 2
 ### Week 2 Goals
