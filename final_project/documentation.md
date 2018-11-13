@@ -27,7 +27,7 @@ Translation check by page and handlers. Not mentioned handlers con be considered
 * your-first-sketch12: modified
 
 #### [Commit November 12th, 2018](https://github.com/guillemontecinos/p5.js-website/commit/c01572279342265c4f03fcfd9894f710fb86672f)
-The above was committed to my repo's fork.
+The above [Translations Check](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/documentation.md#translation-check) were committed to my repo's fork.
 
 ## Week 2
 ### Week 2 Goals
