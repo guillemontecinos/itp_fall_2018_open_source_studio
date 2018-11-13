@@ -10,6 +10,25 @@ This is the documentation of the project [**Tracking of p5.js Spanish website tr
 #### [Forking p5.js website repo](https://github.com/guillemontecinos/p5.js-website) to my GitHub account
 The [original repo](https://github.com/processing/p5.js-website) was forked to my account and cloned into my local.
 
+#### Translation Check
+Translation check by page and handlers. Not mentioned handlers con be considered as ok.
+##### Inicio: *p5js.org/es/*
+* p1x2: modified
+##### Descargar *p5js.org/es/download*
+* editor-includes: translation is ok @ [es.yml](https://github.com/processing/p5.js-website/src/data/es.yml) but is not being shown in rendering process. Submitted in the following [Issue](https://github.com/processing/p5.js-website/issues/287)
+##### Empezar *p5js.org/es/get-started/*
+* download4: the word *miniaturizada* was changed for *reducida* due to the first one is not as common for this purpose.
+* envirnoment9: modified
+* envirnoment11: modified
+* your-first-sketch2: modified
+* **Note**: [**Using p5 with a screen reader**](https://p5js.org/es/learn/p5-screen-reader.html) page is not translated yet.
+* your-first-sketch9: modified
+* your-first-sketch10: modified
+* your-first-sketch12: modified
+
+#### [Commit November 12th, 2018](https://github.com/guillemontecinos/p5.js-website/commit/c01572279342265c4f03fcfd9894f710fb86672f)
+The above was committed to my repo's fork.
+
 ## Week 2
 ### Week 2 Goals
 * Track, translation and correction of Spanish p5.js reference (2/2)
