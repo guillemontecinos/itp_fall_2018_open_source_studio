@@ -64,6 +64,7 @@ Sub-page Color was modified.
 * Every handler at the es.yml were translated to Spanish.
 
 #### [Commit November 19th, 2018](https://github.com/guillemontecinos/p5.js-website/commit/3272d0c4de19af18339f0397989ed9cf22d9f135)
+The above was committed to the source branch through the following [PR](https://github.com/processing/p5.js-website/pull/292).
 
 ## Week 3
 ### Week 3 Goals
