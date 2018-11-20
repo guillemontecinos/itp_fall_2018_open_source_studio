@@ -49,9 +49,21 @@ The above [Translations Check](https://github.com/guillemontecinos/itp_fall_2018
 * **[Link to Beyond the canvas](https://github.com/processing/p5.js/wiki/Beyond-the-canvas) goes to p5.js wiki @ Github. Not translated yet.**
 * **[Link to Getting started with WebGL in p5](https://github.com/processing/p5.js/wiki/Getting-started-with-WebGL-in-p5) goes to p5.js wiki @ Github. Not translated yet.**
 
+###### Color *https://p5js.org/es/learn/color.html*
+Sub-page Color was modified.
+* On [src/templates/pages/learn/color.hbs](https://github.com/guillemontecinos/p5.js-website/blob/master/src/templates/pages/learn/color.hbs) title and slug were modified from *learn* to *color*.
+* On [es.yml](https://github.com/guillemontecinos/p5.js-website/src/data/es.yml) and [en.yml](https://github.com/guillemontecinos/p5.js-website/src/data/en.yml) a class for color and handlers were added at line 430.
+* TODO: I'm changing color.hbs text to handlers. First I create them in the en.yml and then I copy them to es.yml and then translate. I'm at color-p2x4.
+
 ## Week 2
 ### Week 2 Goals
 * Track, translation and correction of Spanish p5.js reference (2/2)
+### Advances - Translation
+###### Color *https://p5js.org/es/learn/color.html*
+* Handlers in color.hbs were created and moved to the files en.yml, es.yml and zh-Hans.yml.
+* Every handler at the es.yml were translated to Spanish.
+
+#### [Commit November 19th, 2018](https://github.com/guillemontecinos/p5.js-website/commit/3272d0c4de19af18339f0397989ed9cf22d9f135)
 
 ## Week 3
 ### Week 3 Goals
