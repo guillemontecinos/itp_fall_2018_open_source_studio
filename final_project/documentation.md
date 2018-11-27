@@ -77,11 +77,13 @@ Due to the PR [#293](https://github.com/processing/p5.js-website/pull/293) a bun
 
 The errors introduced had two origins:
 
-1. The `.yml` files broke the page compilation process because there were double quotes in the texts. Each YAML handler must be written as `color-rgb-title: "Color RGB"`, which means that the handler `color-rgb-title` has assigned the content `"Color RGB"` in the current language `.yml` file.
+#### 1. YAML files can break compilation
+The `.yml` files can break the page compilation process under syntax issues as double quotes within the text. Each YAML handler must be written as `color-rgb-title: "Color RGB"`, which means that the handler `color-rgb-title` has assigned the content `"Color RGB"` in the current language `.yml` file.
 
 In some cases, the text translated from the original `.hbs` file (written in HTML) included double quotes used for highlight some idea. In those cases I didn't use the scape command `\` before the quotes, which was interpreted by the compiler as there was a syntax error due the handler finished more the one time.
 
-2. The structure of `.hbs` files contains at the head a slot for declaring the folder where the page will be placed when compiled.
+#### 2. Handlers managing and new slugs creation at hbs files
+The structure of `.hbs` files contains at the head a slot for declaring the folder where the page will be placed when compiled.
 
 ```
 ---
@@ -107,7 +109,8 @@ color:
 
 Instead of this, the color-related handler must be added to the `learn` list of handlers, as done in the PR [#297](https://github.com/processing/p5.js-website/pull/297).
 
-
+### Results
+After the above the page can be created successfully.
 
 ## Week 4
 ### Week 4 Goals
