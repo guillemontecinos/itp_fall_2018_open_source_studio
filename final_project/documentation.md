@@ -83,15 +83,15 @@ In some cases, the text translated from the original `.hbs` file (written in HTM
 
 2. The structure of `.hbs` files contains at the head a slot for declaring the folder where the page will be placed when compiled.
 
-`---
-title: learn
-slug: learn/
+`---\n
+title: learn\n
+slug: learn/\n
 ---`
 
 For nested pages -for example `p5js.org/es/learn/color.html`- the slug of the `.hbs` document must match the upper folder, in this case `learn`. This is directly related with the way handlers are displayed in the `.yml` file. For example, all the handlers for the `learn` page are written under its slug as follows:
 
-`learn:
-  learn-title: "Aprender"
+`learn: \n
+  learn-title: "Aprender"\n
   learn1: "Estos tutoriales proveen una revisión en mayor profundidad o paso a paso sobre temas particulares. Revisa la "`
 
 
