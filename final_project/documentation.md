@@ -98,7 +98,7 @@ learn:
   learn1: "Estos tutoriales proveen una revisión en mayor profundidad o paso a paso sobre temas particulares. Revisa la "
 ```
 
-For the case of nested pages it's important to not create a new slug for each page, because it can make the `.hbs` files not to find the handlers when calling the `i18n` data. So for the page **color** it is not needed to create a new `slug: color/` like:
+For the case of nested pages it's important to not create a new slug for each page, because it can make the `.hbs` files not to find the handlers when calling the `i18n` data. So for the page color **it is not needed to create a new** `slug: color/` like:
 
 ```
 color:
