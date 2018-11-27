@@ -110,7 +110,8 @@ color:
 Instead of this, the color-related handler must be added to the `learn` list of handlers, as done in the PR [#297](https://github.com/processing/p5.js-website/pull/297).
 
 ### Results
-After the above the page can be created successfully.
+* After the above the page can be created successfully.
+* Creation of a [translating.md](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/translating.md) file.
 
 ## Week 4
 ### Week 4 Goals
