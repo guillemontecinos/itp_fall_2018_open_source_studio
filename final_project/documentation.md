@@ -92,9 +92,11 @@ slug: learn/
 
 For nested pages -for example `p5js.org/es/learn/color.html`- the slug of the `.hbs` document must match the upper folder, in this case `learn`. This is directly related with the way handlers are displayed in the `.yml` file. For example, all the handlers for the `learn` page are written under its slug as follows:
 
-`learn: \n
-  learn-title: "Aprender"\n
-  learn1: "Estos tutoriales proveen una revisión en mayor profundidad o paso a paso sobre temas particulares. Revisa la "`
+```
+learn: \n
+learn-title: "Aprender"\n
+learn1: "Estos tutoriales proveen una revisión en mayor profundidad o paso a paso sobre temas particulares. Revisa la "
+```
 
 
 
