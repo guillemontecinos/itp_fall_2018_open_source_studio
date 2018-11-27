@@ -90,13 +90,22 @@ slug: learn/
 ---
 ```
 
-For nested pages -for example `p5js.org/es/learn/color.html`- the slug of the `.hbs` document must match the upper folder, in this case `learn`. This is directly related with the way handlers are displayed in the `.yml` file. For example, all the handlers for the `learn` page are written under its slug as follows:
+For nested pages -for example `p5js.org/es/learn/color.html`- the slug of the `.hbs` document must match the upper folder, in this case `learn`. This is directly related with the way handlers are displayed in the `.yml` file. For example, all the handlers for the `learn` page are written under its slug with a tab as follows:
 
 ```
 learn:
   learn-title: "Aprender"
   learn1: "Estos tutoriales proveen una revisión en mayor profundidad o paso a paso sobre temas particulares. Revisa la "
 ```
+
+For the case of nested pages it's important to not create a new slug for each page, because it can make the `.hbs` files not to find the handlers when calling the `i18n` data. So for the page **color** it is not needed to create a new `slug: color/` like:
+
+```
+color:
+  color-title: "Color"
+```
+
+Instead of this, the color-related handler must be added to the `learn` list of handlers, as done in the PR [#297](https://github.com/processing/p5.js-website/pull/297).
 
 
 
