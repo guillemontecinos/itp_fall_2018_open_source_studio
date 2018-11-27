@@ -62,13 +62,22 @@ Sub-page Color was modified.
 ###### Color *https://p5js.org/es/learn/color.html*
 * Handlers in color.hbs were created and moved to the files en.yml, es.yml and zh-Hans.yml.
 * Every handler at the es.yml were translated to Spanish.
+###### Coordinate System and Shapes *https://p5js.org/es/learn/coordinate-system-and-shapes.html*
+* Handlers in coordinate-system-and-shapes.hbs were created and moved to the files en.yml, es.yml and zh-Hans.yml.
+* Every handler at the es.yml were translated to Spanish.
 
-#### [Commit November 19th, 2018](https://github.com/guillemontecinos/p5.js-website/commit/3272d0c4de19af18339f0397989ed9cf22d9f135)
+#### [Commit November 20th, 2018](https://github.com/guillemontecinos/p5.js-website/commit/3272d0c4de19af18339f0397989ed9cf22d9f135)
 The above was committed to the source branch through the following [PR](https://github.com/processing/p5.js-website/pull/293).
 
 ## Week 3
 ### Week 3 Goals
 * Track, translation and correction of Spanish p5.js examples (1/2)
+### Advances - Fixing problems
+Due to the PR [#293](https://github.com/processing/p5.js-website/pull/293) a bunch of problems were introduced to the website, because after that it couldn't be [compiled](https://github.com/processing/p5.js-website/commit/733e64f50cd196c2c41903617a1392faaf5f78bc#r31435805) again.
+
+The errors introduced had to origins: firstly the `.yml` files broke the page compilation process because there were double quotes in the texts. Each YAML handler must be written as `color-rgb-title: "Color RGB"`, which means that the handler `color-rgb-title` has assigned the content `"Color RGB"` in the current language `.yml` file.
+
+
 
 ## Week 4
 ### Week 4 Goals
