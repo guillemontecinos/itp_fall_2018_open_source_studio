@@ -75,7 +75,24 @@ The above was committed to the source branch through the following [PR](https://
 ### Advances - Fixing problems
 Due to the PR [#293](https://github.com/processing/p5.js-website/pull/293) a bunch of problems were introduced to the website, because after that it couldn't be [compiled](https://github.com/processing/p5.js-website/commit/733e64f50cd196c2c41903617a1392faaf5f78bc#r31435805) again.
 
-The errors introduced had to origins: firstly the `.yml` files broke the page compilation process because there were double quotes in the texts. Each YAML handler must be written as `color-rgb-title: "Color RGB"`, which means that the handler `color-rgb-title` has assigned the content `"Color RGB"` in the current language `.yml` file.
+The errors introduced had two origins:
+
+1. The `.yml` files broke the page compilation process because there were double quotes in the texts. Each YAML handler must be written as `color-rgb-title: "Color RGB"`, which means that the handler `color-rgb-title` has assigned the content `"Color RGB"` in the current language `.yml` file.
+
+In some cases, the text translated from the original `.hbs` file (written in HTML) included double quotes used for highlight some idea. In those cases I didn't use the scape command `\` before the quotes, which was interpreted by the compiler as there was a syntax error due the handler finished more the one time.
+
+2. The structure of `.hbs` files contains at the head a slot for declaring the folder where the page will be placed when compiled.
+
+`---
+title: learn
+slug: learn/
+---`
+
+For nested pages -for example `p5js.org/es/learn/color.html`- the slug of the `.hbs` document must match the upper folder, in this case `learn`. This is directly related with the way handlers are displayed in the `.yml` file. For example, all the handlers for the `learn` page are written under its slug as follows:
+
+`learn:
+  learn-title: "Aprender"
+  learn1: "Estos tutoriales proveen una revisión en mayor profundidad o paso a paso sobre temas particulares. Revisa la "`
 
 
 
