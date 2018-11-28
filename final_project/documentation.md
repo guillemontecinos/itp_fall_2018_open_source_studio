@@ -111,7 +111,7 @@ Instead of this, the color-related handler must be added to the `learn` list of 
 
 ### Results
 * After the above the page can be created successfully.
-* Creation of a [translating.md](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/translating.md) file.
+* Creation of [translating.md](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/translating.md).
 
 ## Week 4
 ### Week 4 Goals
