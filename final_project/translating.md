@@ -65,9 +65,9 @@ color:
 
 Instead of this, the color-related handler must be added to the `learn` list of handlers. For English version, the site will follow the same top-level hierarchy as the original site. When you switch to a different language, the permalink and file structure will include the language abbreviation immediately following the root url. (ex: `https://p5js.org/es/get-started/`)
 
-**Beware of the syntax on your translation**. The `.yml` files can break the page compilation process under syntax issues as double quotes within the text. Each YAML handler must be written as `color-rgb-title: "Color RGB"`, which means that the handler `color-rgb-title` has assigned the content `"Color RGB"` in the current language `.yml` file.
+**Beware of the syntax on your translation**. The .yml files can break the page compilation process under syntax issues as double quotes within the text. Each YAML handler must be written as `color-rgb-title: "Color RGB"`, which means that the handler `color-rgb-title` has assigned the content `"Color RGB"` in the current language .yml file.
 
-In some cases, the text translated from the original `.hbs` file (written in HTML) included double quotes used for highlight some idea. In those cases I didn't use the scape command `\` before the quotes, which was interpreted by the compiler as there was a syntax error due the handler finished more the one time.
+In some cases, the text translated from the original .hbs file (written in HTML) included double quotes used for highlight some idea. In those cases I didn't use the scape command `\` before the quotes, which was interpreted by the compiler as there was a syntax error due the handler finished more the one time.
 
 ### Translation of Reference
 * The reference works a bit differently. The pages are built in English based on the inline documentation in the source code. They are then swapped out using [JS on the front-end](https://github.com/processing/p5.js-website/blob/master/dist/reference/index.html#L130).
