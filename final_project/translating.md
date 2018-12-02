@@ -44,13 +44,28 @@ Within the .hbs pages there are tags that replace the actual content and look li
 <li><a href="{{root}}/download/">{{#i18n "Download"}}{{/i18n}}</a></li>
 ```
 
-In this example "Download" corresponds to the key-value pair for the translation of that word to other languages. Each key-value can point to a word as well as a phrase. There should be a MyKeyword entry in every language file for things to render correctly.
+In this example "Download" corresponds to the key-value pair for the translation of that content to other languages. Each key-value can point to a word as well as a phrase. and there must be a key-value for each handler entry in every language, otherwise the website render process can be broken.
+
+Each page contains YAML "front matter" at the top which includes a title and (optional) slug field. The title corresponds to the section in which to place the i18n key-value pairs. (Note: each page has only one title, so for partials within the `partials` folder, place the i18n pairs at the top level). The slug corresponds to the folder in which the page will be placed. This should generally match the folder structure within the `pages` folder.
+
+For nested pages -for example `p5js.org/es/learn/color.html`- the slug of the .hbs document must match the upper folder, in this case `learn`. This is directly related with the way handlers are displayed in the .yml file. For example, all the handlers for the `learn` page are written under its slug with a tab as follows:
+
+```
+learn:
+  learn-title: "Aprender"
+  learn1: "Estos tutoriales proveen una revisión en mayor profundidad o paso a paso sobre temas particulares. Revisa la "
+```
+
+But for nested pages it's important not to create a new slug for each page, because it can make the .hbs files not to find the handlers when calling the i18n data. So, for the page color **it is not needed to create a new** `slug: color/` like:
+
+```
+color:
+  color-title: "Color"
+```
+
+Instead of this, the color-related handler must be added to the `learn` list of handlers.
 
 
-
-* MyKeyword corresponds to the key-value pair for the translation of that word or phrase. There should be a MyKeyword entry in every language file for things to render correctly.
-* Each page contains YAML "front matter" at the top which includes a title and (optional) slug field. The title corresponds to the section in which to place the i18n key-value pairs. (Note: each page has only one title, so for partials within the `partials` folder, place the i18n pairs at the top level.)
-* The slug corresponds to the folder in which the page will be placed. This should generally match the folder structure within the `pages` folder.
 * For English version, the site will follow the same top-level hierarchy as the original site. When you switch to a different language, the permalink and file structure will include the language abbreviation immediately following the root url. (ex: `https://p5js.org/es/get-started/`)
 
 ### Translation of Reference
