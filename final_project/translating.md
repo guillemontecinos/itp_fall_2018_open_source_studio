@@ -11,13 +11,12 @@ Before starting to contribute there are some important things you have to consid
 **Never** open a [Pull Request](https://help.github.com/articles/about-pull-requests/) (PR) without checking before if your changes are correctly working. For that you have to build the website locally following the instructions below.
 
 ### 3. Just commit your changes
-When working on translations, just commit the changes you've done in the files under `src`, which means the .hbs and .yml files. Please check the File Structure section for more information.
+When working on translations, just commit the changes you've done in the files under `src`, which means the .hbs and .yml files. Please check the File Structure section for more information and review [here](https://github.com/processing/p5.js-website/wiki/Pull-requests) what to commit in your PR.
 
 ### 4. Check if your fork is updated
 Always check if your fork is updated with the base repo, otherwise through a commit you can reverse changes made in a commit made by other person.
 
 ## File Structure
-* __See note about what to include in pull requests [here](https://github.com/processing/p5.js-website/wiki/Pull-requests).__
 * `src/` – All the pieces for generating the built site. __Edits should be made here.__
   * `assets/` – All static files (imgs, css, fonts, js, p5_featured homepage sketches)
     * Note: if you make edits here you must restart the server to see your changes. To see changes immediately, you can edit the assets files in the dist directory, but need to copy and paste your updated work here for it to be saved.
