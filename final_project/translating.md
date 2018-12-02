@@ -8,7 +8,7 @@ Before starting to contribute there are some important things you have to consid
 [Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the original repo, and work locally on your machine.
 
 ### 2. Check your changes
-**Never** open a [Pull Request](https://help.github.com/articles/about-pull-requests/) (PR) without checking before if your changes are correctly working. For that you have to build the website locally following the instructions below.
+**Always** check if your changes are correctly working before opening a [Pull Request](https://help.github.com/articles/about-pull-requests/) (PR). In order to do that you have to build the website locally following the instructions below.
 
 ### 3. Just commit your changes
 When working on translations, just commit the changes you've done in the files under `src`, which means the .hbs and .yml files. Please check the File Structure section for more information and review [here](https://github.com/processing/p5.js-website/wiki/Pull-requests) what to commit in your PR.
