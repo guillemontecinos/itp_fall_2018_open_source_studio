@@ -8,7 +8,13 @@ Before starting to contribute there are some important things you have to consid
 [Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the original repo, and work locally on your machine.
 
 ### 2. Check your changes
-**Never** open a [Pull Request](https://help.github.com/articles/about-pull-requests/) without have checked before that your changes are correctly working. For that you have to build the website locally following the instructions below.
+**Never** open a [Pull Request](https://help.github.com/articles/about-pull-requests/) (PR) without checking before if your changes are correctly working. For that you have to build the website locally following the instructions below.
+
+### 3. Just commit your changes
+When working on translations, just commit the changes you've done in the files under `src`, which means the .hbs and .yml files. Please check the File Structure section for more information.
+
+### 4. Check if your fork is updated
+Always check if your fork is updated with the base repo, otherwise through a commit you can reverse changes made in a commit made by other person.
 
 * What's the file Structure
 
