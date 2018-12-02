@@ -16,8 +16,6 @@ When working on translations, just commit the changes you've done in the files u
 ### 4. Check if your fork is updated
 Always check if your fork is updated with the base repo, otherwise through a commit you can reverse changes made in a commit made by other person.
 
-* What's the file Structure
-
 ## File Structure
 * __See note about what to include in pull requests [here](https://github.com/processing/p5.js-website/wiki/Pull-requests).__
 * `src/` – All the pieces for generating the built site. __Edits should be made here.__
