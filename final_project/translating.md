@@ -3,11 +3,11 @@ If you want to contribute with p5.js website translations you are in the right p
 
 
 Before starting to contribute there are some important things you have to consider:
-1. Where to work?
 
+### 1. Where to work?
 [Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the original repo, and work locally on your machine.
-2. Check your changes
 
+### 2. Check your changes
 **Never** open a [Pull Request](https://help.github.com/articles/about-pull-requests/) without have checked before that your changes are correctly working. For that you have to build the website locally following the instructions below.
 
 * What's the file Structure
