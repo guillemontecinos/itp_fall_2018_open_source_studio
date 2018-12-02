@@ -1,6 +1,15 @@
 # Starting new translations and collaborating with existing p5.js website translations
 *Some topics of this documentation were taken from the README.md file of this repo.*
 
+If you want to contribute with p5.js website translations you are in the right place. Your collaboration can be correcting an already translated content -at the reference, examples or other pages within the website- as well as starting a new language translation.
+
+Before starting to contribute there are some important things you have to consider:
+1. Where to work
+[Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the original repo, and work locally on your machine.
+2. Check your changes
+**Never** open a [Pull Request](https://help.github.com/articles/about-pull-requests/) without have checked before that your changes are correctly working. For that you have to build the website locally following the instructions below.
+
+* What's the file Structure
 
 ## File Structure
 * __See note about what to include in pull requests [here](https://github.com/processing/p5.js-website/wiki/Pull-requests).__
