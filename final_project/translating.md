@@ -17,7 +17,14 @@ When working on translations, just commit the changes you've done in the files u
 Always check if your fork is updated with the base repo, otherwise through a commit you can reverse changes made in a commit made by other person.
 
 ## File Structure
-* `src/` – All the pieces for generating the built site. __Edits should be made here.__
+Under this repo there are two directories in which we have to focus:
+```
+p5.js-website/
+  src/
+  dist/
+```
+* `dist/`: Every time the server receives a request it returns data from here, which means that the actual website is stored under this directory. Files under `dist/` **must never be modified by hand**, they are overwritten each time the web is built.
+* `src/`: contains the files from where the page is rendered, which means .hbs and .yml files for the website itself and .js and .json files for Reference and Examples. **All your changes must be done here**.
   * `assets/` – All static files (imgs, css, fonts, js, p5_featured homepage sketches)
     * Note: if you make edits here you must restart the server to see your changes. To see changes immediately, you can edit the assets files in the dist directory, but need to copy and paste your updated work here for it to be saved.
   * `data/` – translation files
@@ -25,7 +32,6 @@ Always check if your fork is updated with the base repo, otherwise through a com
     * `layouts/` – default.hbs is main page template
     * `pages/` – Contains each of the pages of the p5 site, these get inserted in `{{> body }}` tag of default layout.
     * `partials/` – These are reusable pieces that can get added to any page or layout, they correspond to other `{{> filename }}` tags in the pages or default layout.
-* `dist/` – Where the rendered files are stored, this can be placed directly online.
 * `Gruntfile.js` – This file contains all the tasks for using assemble and YAML to generate the final, static site. It uses the taskrunner [grunt](http://gruntjs.com/).
 
 
