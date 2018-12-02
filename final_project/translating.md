@@ -28,7 +28,26 @@ Each time you make changes in any file of the website it's needed to build it ag
 ## Working on existing translations
 
 ### Translation of all pages except Reference and Examples
-* Each website page uses handlebars to access the i18n data and render. The .yml files in the `src/data` folder hold the i18n data for each language. Within the pages there are tags that look like this: `{{#i18n "MyKeyword"}}{{/i18n}}`
+The translation of the p5.js website to languages other than English is part of its internationalization -abbreviated [*i18n*](https://en.wikipedia.org/wiki/Internationalization_and_localization)- process. For that purpose, each website is written in [.hbs](https://www.npmjs.com/package/hbs) format -files created with Handlebars and written using HTML rules- using handlers to access the i18n data of each language and render. Hbs files are stored under `src/template/pages`.
+
+ The i18n data is stored in [.yml](https://en.wikipedia.org/wiki/YAML) files in the `src/data` folder of this repo. For example, under the above mentioned path the .yml files for Ensglish, Spanish and Chinese can be found as follows:
+
+```
+en.yml
+es.yml
+zh-Hans.yml
+```
+
+Within the .hbs pages there are tags that replace the actual content and look like this: `{{#i18n "MyKeyword"}}{{/i18n}}`. For example the *Download* tag at the main bar looks like this:
+
+```
+<li><a href="{{root}}/download/">{{#i18n "Download"}}{{/i18n}}</a></li>
+```
+
+In this example "Download" corresponds to the key-value pair for the translation of that word to other languages. Each key-value can point to a word as well as a phrase. There should be a MyKeyword entry in every language file for things to render correctly.
+
+
+
 * MyKeyword corresponds to the key-value pair for the translation of that word or phrase. There should be a MyKeyword entry in every language file for things to render correctly.
 * Each page contains YAML "front matter" at the top which includes a title and (optional) slug field. The title corresponds to the section in which to place the i18n key-value pairs. (Note: each page has only one title, so for partials within the `partials` folder, place the i18n pairs at the top level.)
 * The slug corresponds to the folder in which the page will be placed. This should generally match the folder structure within the `pages` folder.
