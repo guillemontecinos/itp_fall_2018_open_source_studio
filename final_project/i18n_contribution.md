@@ -23,7 +23,7 @@ If you want to contribute with p5.js website translations you are in the right p
 2. Make changes only at files under the `src/` directory.
 3. Check if your changes are correct and don't break the website render by typing `npm run watch`.
 4. Commit only the files you have changed, type:
-```
+```bash
 $ git add src/
 $ git commit -m "add a message to your commit"
 $ git push
@@ -64,7 +64,7 @@ zh-Hans.yml
 
 Within the .hbs pages there are tags that replace the actual content and look like this: `{{#i18n "MyKeyword"}}{{/i18n}}`. For example the *Download* tag at the main bar looks like this:
 
-```
+```html
 <li><a href="{{root}}/download/">{{#i18n "Download"}}{{/i18n}}</a></li>
 ```
 
@@ -74,7 +74,7 @@ Each page contains YAML "front matter" at the top which includes a title and (op
 
 For nested pages -for example `p5js.org/es/learn/color.html`- the slug of the .hbs document must match the upper folder, in this case `learn`. This is directly related with the way handlers are displayed in the .yml file. For example, all the handlers for the `learn` page are written under its slug with a tab as follows:
 
-```
+```javascript
 learn:
   learn-title: "Aprender"
   learn1: "Estos tutoriales proveen una revisión en mayor profundidad o paso a paso sobre temas particulares. Revisa la "
@@ -82,7 +82,7 @@ learn:
 
 But for nested pages it's important not to create a new slug for each page, because it can make the .hbs files not to find the handlers when calling the i18n data. So, for the page color **it is not needed to create a new** `slug: color/` like:
 
-```
+```javascript
 color:
   color-title: "Color"
 ```
