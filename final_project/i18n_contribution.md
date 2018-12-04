@@ -3,6 +3,11 @@
 If you want to contribute with p5.js website translations you are in the right place. You can be improve content that has been already translated -at the reference, examples or other pages within the website- as well as start a new language translation. Some topics of this documentation were taken from the README.md file of this repo.
 
 ### 0. How the website works
+1. Due to internationalization (i18n) this website is built from templates that retrieve the text content from data files
+2. The data and templates are stored under `src/` directory
+3. Every time a modification is submitted the website is rendered again. The built web is stored under `dist/`
+4. When collaborating just modify files under `src/`, never touch `dist/`
+5. There are three kind of pages that work differently: Reference, Exercises, Other
 
 ### 1. Setting up before start your contribution
 0. Install node.js by following the instructions [here](https://nodejs.org/en/download/).
