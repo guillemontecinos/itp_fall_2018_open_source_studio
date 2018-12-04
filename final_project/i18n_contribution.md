@@ -4,10 +4,10 @@ If you want to contribute with p5.js website translations you are in the right p
 
 ## Table of Contents
 
-* [How the website works]()
-* Setting up before start your contribution
-* Before submitting a Pull Request
-* File Structure
+* [How the website works](#how-the-website-works)
+* [Setting up before start your contribution](#setting-up-before-start-your-contribution)
+* [Before submitting a Pull Request](#before-submitting-a-pull-request)
+* [File Structure](#file-structure)
 * Start a new translation
 * Working on existing translations
   * Translation of all pages except Reference and Examples
