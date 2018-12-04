@@ -7,7 +7,7 @@ If you want to contribute with p5.js website translations you are in the right p
 2. The data and templates are stored under `src/` directory
 3. Every time a modification is submitted the website is rendered again. The built web is stored under `dist/`
 4. When collaborating just modify files under `src/`, never touch `dist/`
-5. There are three kind of pages that work differently: Reference, Exercises, Other
+5. There are three kind of pages that work differently: [Reference](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-reference), [Examples](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-examples), [Other](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-all-pages-except-reference-and-examples)
 
 ### 1. Setting up before start your contribution
 0. Install node.js by following the instructions [here](https://nodejs.org/en/download/).
