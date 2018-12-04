@@ -1,6 +1,6 @@
 # Contributing to p5.js website internationalization
 
-If you want to contribute with p5.js website translations you are in the right place. You can be improve content already translated -at the reference, examples or other pages within the website- as well as start a new language translation. Some topics of this documentation were taken from the README.md file of this repo.
+If you want to contribute with p5.js website translations you are in the right place. You can be improve content that has been already translated -at the reference, examples or other pages within the website- as well as start a new language translation. Some topics of this documentation were taken from the README.md file of this repo.
 
 
 Before starting to contribute there are some important things you have to consider:
