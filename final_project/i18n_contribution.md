@@ -1,15 +1,27 @@
 # Contributing to p5.js website internationalization (i18n)
 
-If you want to contribute with p5.js website translations you are in the right place. You can be improve content that has been already translated -at the reference, examples or other pages within the website- as well as start a new language translation. Some topics of this documentation were taken from the README.md file of this repo.
+If you want to contribute with p5.js website translations you are in the right place. The translation of the p5.js website to languages other than English is part of its internationalization -abbreviated [*i18n*](https://en.wikipedia.org/wiki/Internationalization_and_localization)- process. You can be improve content that has been already translated -at the reference, examples or other pages within the website- as well as start a new language translation. Some topics of this documentation were taken from the README.md file of this repo.
 
-### How the website works
+## Table of Contents
+
+* [How the website works]()
+* Setting up before start your contribution
+* Before submitting a Pull Request
+* File Structure
+* Start a new translation
+* Working on existing translations
+  * Translation of all pages except Reference and Examples
+  * Translation of Reference
+  * Translation of Examples
+
+## How the website works
 1. Due to internationalization (i18n) this website is built from templates that retrieve the text content from data files
 2. Every time a modification is submitted the website is rendered again.
 3. Built web is stored under `dist/` directory whilst data and templates are stored under `src/` directory. For further information check [File Structure](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#file-structure).
 4. When collaborating just modify files under `src/`, never touch `dist/`
 5. There are three kind of pages that work differently: [Reference](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-reference), [Examples](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-examples), [Other](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-all-pages-except-reference-and-examples)
 
-### Setting up before start your contribution
+## Setting up before start your contribution
 0. Install node.js by following the instructions [here](https://nodejs.org/en/download/).
 1. [Fork](https://help.github.com/articles/fork-a-repo/) the p5.js-website repository to your Github account.
 2. Open your command-line interface and [clone](https://help.github.com/articles/cloning-a-repository/) your fork of the p5.js-website repository to your laptop.
@@ -18,7 +30,7 @@ If you want to contribute with p5.js website translations you are in the right p
 5. This should open a window in your browser with the site running at http://localhost:9000.
 6. Set `github.com/processing/p5.js-website` as the upstream of your local repository following this [tutorial](https://help.github.com/articles/configuring-a-remote-for-a-fork/).
 
-### Before submitting a Pull Request
+## Before submitting a Pull Request
 1. Sync your fork to keep it up-to-date with the upstream repository following this [tutorial](https://help.github.com/articles/syncing-a-fork/).
 2. Make changes only at files under the `src/` directory.
 3. Check if your changes are correct and don't break the website render by typing `npm run watch`.
@@ -48,11 +60,16 @@ p5.js-website/
     * `partials/` – These are reusable pieces that can get added to any page or layout, they correspond to other `{{> filename }}` tags in the pages or default layout.
 * `Gruntfile.js` – This file contains all the tasks for using assemble and YAML to generate the final, static site. It uses the taskrunner [grunt](http://gruntjs.com/).
 
+## Start a new translation
+1. Duplicate `[en.yml]`(https://github.com/processing/p5.js-website/blob/master/src/data/en.yml) in `src/data` and name it `{languageabbreviation}.yml`. For example `es.yml`. See this page for [two-letter language abbreviations](https://www.abbreviations.com/acronyms/LANGUAGES2L).
+2. Duplicate `[es.json]`(https://github.com/processing/p5.js-website/blob/master/src/data/reference/es.json) and name it `{languageabbreviation}.json`.
+3. Add an entry with the language abbreviation [here](https://github.com/processing/p5.js-website/blob/master/Gruntfile.js#L90).
+
 
 ## Working on existing translations
 
 ### Translation of all pages except Reference and Examples
-The translation of the p5.js website to languages other than English is part of its internationalization -abbreviated [*i18n*](https://en.wikipedia.org/wiki/Internationalization_and_localization)- process. For that purpose, each website is written in [.hbs](https://www.npmjs.com/package/hbs) format -files created with Handlebars and written using HTML rules- using handlers to access the i18n data of each language and render. Hbs files are stored under `src/template/pages`.
+Each website is written in [.hbs](https://www.npmjs.com/package/hbs) format -files created with Handlebars and written using HTML rules- using handlers to access the i18n data of each language and render. Hbs files are stored under `src/template/pages`.
 
 The i18n data is stored in [.yml](https://en.wikipedia.org/wiki/YAML) files in the `src/data` folder of this repo. For example, under the above mentioned path the .yml files for Ensglish, Spanish and Chinese can be found as follows:
 
@@ -108,8 +125,3 @@ The examples are handled a bit differently from other pages.
 * The folder, file, and numbering structure should match exactly between the different languages. Do not change the filenames. The text for the example name, description, and source code are all in the .js files in the folders.
 * Assets for the examples are placed in `src/data/examples/assets`.
 * Translations for the topic headers on the example index page are done in the YAML files (`src/data/*.yml`).
-
-## Start a new translation
-1. Duplicate `[en.yml]`(https://github.com/processing/p5.js-website/blob/master/src/data/en.yml) in `src/data` and name it `{languageabbreviation}.yml`. For example `es.yml`. See this page for [two-letter language abbreviations](https://www.abbreviations.com/acronyms/LANGUAGES2L).
-2. Duplicate `[es.json]`(https://github.com/processing/p5.js-website/blob/master/src/data/reference/es.json) and name it `{languageabbreviation}.json`.
-3. Add an entry with the language abbreviation [here](https://github.com/processing/p5.js-website/blob/master/Gruntfile.js#L90).
