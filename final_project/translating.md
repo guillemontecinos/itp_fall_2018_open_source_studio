@@ -2,20 +2,28 @@
 
 If you want to contribute with p5.js website translations you are in the right place. You can be improve content that has been already translated -at the reference, examples or other pages within the website- as well as start a new language translation. Some topics of this documentation were taken from the README.md file of this repo.
 
+### 0. How the website works
 
-Before starting to contribute there are some important things you have to consider:
+### 1. Setting up before start your contribution
+0. Install node.js by following the instructions [here](https://nodejs.org/en/download/).
+1. [Fork](https://help.github.com/articles/fork-a-repo/) the p5.js-website repository to your Github account.
+2. Open your command-line interface and [clone](https://help.github.com/articles/cloning-a-repository/) your fork of the p5.js-website repository to your laptop.
+3. Go to the repository's directory `$ Users/your_user/your_directory/p5.js-website/` and run `npm install` to install all the packages and dependencies for the website.
+4. Check if the packages are correctly installed by typing `npm run watch`.
+5. This should open a window in your browser with the site running at http://localhost:9000.
+6. Set `github.com/processing/p5.js-website` as the upstream of your local repository following this [tutorial](https://help.github.com/articles/configuring-a-remote-for-a-fork/).
 
-### 1. Where to work?
-[Fork](https://help.github.com/articles/fork-a-repo/) and [clone](https://help.github.com/articles/cloning-a-repository/) the original repo, and work locally on your machine.
-
-### 2. Check your changes
-**Always** check if your changes are correctly working before opening a [Pull Request](https://help.github.com/articles/about-pull-requests/) (PR). In order to do that you have to build the website locally following the instructions below.
-
-### 3. Just commit your changes
-When working on translations, just commit the changes you've done in the files under `src`, which means the .hbs and .yml files. Please check the File Structure section for more information and review [here](https://github.com/processing/p5.js-website/wiki/Pull-requests) what to commit in your PR.
-
-### 4. Check if your fork is updated
-Always check if your fork is updated with the base repo, otherwise through a commit you can reverse changes made in a commit made by other person.
+### 2. Before you do a Pull Request
+1. Sync your fork to keep it up-to-date with the upstream repository following this [tutorial](https://help.github.com/articles/syncing-a-fork/).
+2. Make changes only at files under the `src/` directory.
+3. Check if your changes are correct and don't break the website render by typing `npm run watch`.
+4. Commit only the files you have changed, type:
+```
+$ git add src/
+$ git commit -m "add a message to your commit"
+$ git push
+```
+5. Got to your repository at your github account and create a new [Pull Request](https://github.com/processing/p5.js-website/wiki/Pull-requests)
 
 ## File Structure
 Under this repo there are two directories in which we have to focus:
@@ -36,21 +44,12 @@ p5.js-website/
 * `Gruntfile.js` – This file contains all the tasks for using assemble and YAML to generate the final, static site. It uses the taskrunner [grunt](http://gruntjs.com/).
 
 
-## Building Process
-Each time you make changes in any file of the website it's needed to build it again. For that, follow the next directions:
-
-0. Install [node.js](https://nodejs.org/en/download/).
-1. Download this zip file or [clone this repository](https://help.github.com/articles/cloning-a-repository/) and navigate to the directory in the terminal.
-2. In the repo directory type `npm install` for installing all the dependencies.
-3. Type `npm run watch` to run.
-4. This should open a window in your browser with the site running at http://localhost:9000.
-
 ## Working on existing translations
 
 ### Translation of all pages except Reference and Examples
 The translation of the p5.js website to languages other than English is part of its internationalization -abbreviated [*i18n*](https://en.wikipedia.org/wiki/Internationalization_and_localization)- process. For that purpose, each website is written in [.hbs](https://www.npmjs.com/package/hbs) format -files created with Handlebars and written using HTML rules- using handlers to access the i18n data of each language and render. Hbs files are stored under `src/template/pages`.
 
- The i18n data is stored in [.yml](https://en.wikipedia.org/wiki/YAML) files in the `src/data` folder of this repo. For example, under the above mentioned path the .yml files for Ensglish, Spanish and Chinese can be found as follows:
+The i18n data is stored in [.yml](https://en.wikipedia.org/wiki/YAML) files in the `src/data` folder of this repo. For example, under the above mentioned path the .yml files for Ensglish, Spanish and Chinese can be found as follows:
 
 ```
 en.yml
