@@ -18,7 +18,7 @@ If you want to contribute with p5.js website translations you are in the right p
 5. This should open a window in your browser with the site running at http://localhost:9000.
 6. Set `github.com/processing/p5.js-website` as the upstream of your local repository following this [tutorial](https://help.github.com/articles/configuring-a-remote-for-a-fork/).
 
-### 2. Before you do a Pull Request
+### 2. Before submitting a Pull Request
 1. Sync your fork to keep it up-to-date with the upstream repository following this [tutorial](https://help.github.com/articles/syncing-a-fork/).
 2. Make changes only at files under the `src/` directory.
 3. Check if your changes are correct and don't break the website render by typing `npm run watch`.
