@@ -40,7 +40,7 @@ $ git add src/
 $ git commit -m "add a message to your commit"
 $ git push
 ```
-5. Got to your repository at your github account and create a new [Pull Request](https://github.com/processing/p5.js-website/wiki/Pull-requests)
+5. Commit to your repository at your github account and create a new [Pull Request](https://github.com/processing/p5.js-website/wiki/Pull-requests)
 
 ## File Structure
 Under this repo there are two directories in which we have to focus:
