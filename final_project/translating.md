@@ -1,4 +1,5 @@
-# Starting new translations and collaborating with existing p5.js website translations
+# Contributing to p5.js website internationalization
+
 If you want to contribute with p5.js website translations you are in the right place. Your collaboration can be correcting an already translated content -at the reference, examples or other pages within the website- as well as starting a new language translation. Some topics of this documentation were taken from the README.md file of this repo.
 
 
