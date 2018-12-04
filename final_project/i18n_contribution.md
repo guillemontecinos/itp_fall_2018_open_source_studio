@@ -4,8 +4,8 @@ If you want to contribute with p5.js website translations you are in the right p
 
 ### 0. How the website works
 1. Due to internationalization (i18n) this website is built from templates that retrieve the text content from data files
-2. The data and templates are stored under `src/` directory
-3. Every time a modification is submitted the website is rendered again. The built web is stored under `dist/`
+2. Every time a modification is submitted the website is rendered again.
+3. Built web is stored under `dist/` directory whilst data and templates are stored under `src/` directory. For further information check [File Structure](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#file-structure).
 4. When collaborating just modify files under `src/`, never touch `dist/`
 5. There are three kind of pages that work differently: [Reference](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-reference), [Examples](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-examples), [Other](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-all-pages-except-reference-and-examples)
 
