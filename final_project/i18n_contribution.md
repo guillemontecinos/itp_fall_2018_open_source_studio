@@ -1,4 +1,4 @@
-# Contributing to p5.js website internationalization
+# Contributing to p5.js website internationalization (i18n)
 
 If you want to contribute with p5.js website translations you are in the right place. You can be improve content that has been already translated -at the reference, examples or other pages within the website- as well as start a new language translation. Some topics of this documentation were taken from the README.md file of this repo.
 
