@@ -39,7 +39,24 @@ $ git clone repo_URL
 5. Go to the repository's directory `$ Users/your_user/your_directory/p5.js-website/` and run `$ npm install` to install all the packages and dependencies for the website.
 6. Check if the packages are correctly installed by typing `npm run watch`.
 7. This should open a window in your browser with the site running at http://localhost:9000.
-8. Set `github.com/processing/p5.js-website` as the upstream of your local repository following this [tutorial](https://help.github.com/articles/configuring-a-remote-for-a-fork/).
+8. Set `github.com/processing/p5.js-website` as the upstream of your local. Type the following to list the configured remote for your fork:
+```bash
+$ git remote -v
+origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+```
+Then specify a new remote upstream for your fork (don't forget that by doing this you are setting the upstream for your local fork, but not for your fork on Github):
+```bash
+$ git remote add upstream github.com/processing/p5.js-website
+```
+Finally verify if your remote upstream has been set:
+```bash
+$ git remote -v
+origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
+origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+upstream  https://github.com/processing/p5.js-website.git (fetch)
+upstream  https://github.com/processing/p5.js-website.git (push)
+```
 
 ## Before submitting a Pull Request
 *Please do this every time you submit a PR.*
