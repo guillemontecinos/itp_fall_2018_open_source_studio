@@ -28,13 +28,18 @@ If you want to contribute with p5.js website translations you are in the right p
 ## Setting up before start your contribution
 *Please do this only once before you start your contribution.*
 1. Install node.js by following the instructions [here](https://nodejs.org/en/download/).
-2. [Fork](https://help.github.com/articles/fork-a-repo/) the p5.js-website repository to your Github account. For that hit the *Fork* button on the upper-right side of the p5.js-website Github repo.
+2. [Fork](https://help.github.com/articles/fork-a-repo/) the p5.js-website repository to your Github account. For that hit the *Fork* button on the upper-right side of the p5.js-website Github repo. This will automatically open your fork repo on Github.
 ![](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/assets/fork.png)
-3. Open your command-line interface and [clone](https://help.github.com/articles/cloning-a-repository/) your fork of the p5.js-website repository to your laptop.
-4. Go to the repository's directory `$ Users/your_user/your_directory/p5.js-website/` and run `npm install` to install all the packages and dependencies for the website.
-5. Check if the packages are correctly installed by typing `npm run watch`.
-6. This should open a window in your browser with the site running at http://localhost:9000.
-7. Set `github.com/processing/p5.js-website` as the upstream of your local repository following this [tutorial](https://help.github.com/articles/configuring-a-remote-for-a-fork/).
+3. On your fork hit the green *Clone or download* button. It will display a bar from where you can copy your `repo_URL`.
+![](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/assets/clone.png)
+4. Open your command-line interface (CLI) and [clone](https://help.github.com/articles/cloning-a-repository/) your fork of the p5.js-website repository to `your_directory` on your laptop by typing:
+```bash
+$ git clone `repo_URL`
+```
+5. Go to the repository's directory `$ Users/your_user/your_directory/p5.js-website/` and run `npm install` to install all the packages and dependencies for the website.
+6. Check if the packages are correctly installed by typing `npm run watch`.
+7. This should open a window in your browser with the site running at http://localhost:9000.
+8. Set `github.com/processing/p5.js-website` as the upstream of your local repository following this [tutorial](https://help.github.com/articles/configuring-a-remote-for-a-fork/).
 
 ## Before submitting a Pull Request
 *Please do this every time you submit a PR.*
