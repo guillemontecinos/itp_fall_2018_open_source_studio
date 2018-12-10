@@ -49,7 +49,7 @@ Then specify a new remote upstream for your fork (don't forget that by doing thi
 ```bash
 $ git remote add upstream github.com/processing/p5.js-website
 ```
-Finally verify if your remote upstream has been set:
+Finally verify if your remote upstream has been set (it should look like this):
 ```bash
 $ git remote -v
 origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
