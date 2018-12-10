@@ -17,9 +17,9 @@ If you want to contribute with p5.js website translations you are in the right p
 ## How the website works
 1. Due to internationalization (i18n) this website is built from templates that retrieve the text content from data files
 2. There are three kind of pages that work different:
-  * [Reference](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-reference): Pages are built in English and swapped to other languages using JS on the front-end. Translation content is stored in a JSON object.
-  * [Examples](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-examples): Examples pages are built from from templates handlebars with handlebars, while examples are stored in JS files.
-  * [Other](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-all-pages-except-reference-and-examples): Pages are built from templates in which handlebars point to the content in the actual language when rendered.
+   * [Reference](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-reference): Pages are built in English and swapped to other languages using JS on the front-end. Translation content is stored in a JSON object.
+   * [Examples](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-examples): Examples pages are built from from templates handlebars with handlebars, while examples are stored in JS files.
+   * [Other](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-all-pages-except-reference-and-examples): Pages are built from templates in which handlebars point to the content in the actual language when rendered.
 3. Every time a modification is submitted the website is rendered again.
 4. Built web is stored under `dist/` directory whilst data and templates are stored under `src/` directory. For further information check [File Structure](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#file-structure).
 5. When collaborating just modify files under `src/`, never touch `dist/`
