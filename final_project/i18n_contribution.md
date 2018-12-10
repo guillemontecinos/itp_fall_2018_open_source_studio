@@ -16,19 +16,23 @@ If you want to contribute with p5.js website translations you are in the right p
 
 ## How the website works
 1. Due to internationalization (i18n) this website is built from templates that retrieve the text content from data files
-2. Every time a modification is submitted the website is rendered again.
-3. Built web is stored under `dist/` directory whilst data and templates are stored under `src/` directory. For further information check [File Structure](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#file-structure).
-4. When collaborating just modify files under `src/`, never touch `dist/`
-5. There are three kind of pages that work differently: [Reference](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-reference), [Examples](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-examples), [Other](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-all-pages-except-reference-and-examples)
+2. There are three kind of pages that work different:
+  * [Reference](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-reference): Pages are built in English and swapped to other languages using JS on the front-end. Translation content is stored in a JSON object.
+  * [Examples](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-examples): Examples pages are built from from templates handlebars with handlebars, while examples are stored in JS files.
+  * [Other](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-all-pages-except-reference-and-examples): Pages are built from templates in which handlebars point to the content in the actual language when rendered.
+3. Every time a modification is submitted the website is rendered again.
+4. Built web is stored under `dist/` directory whilst data and templates are stored under `src/` directory. For further information check [File Structure](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#file-structure).
+5. When collaborating just modify files under `src/`, never touch `dist/`
+
 
 ## Setting up before start your contribution
-0. Install node.js by following the instructions [here](https://nodejs.org/en/download/).
-1. [Fork](https://help.github.com/articles/fork-a-repo/) the p5.js-website repository to your Github account.
-2. Open your command-line interface and [clone](https://help.github.com/articles/cloning-a-repository/) your fork of the p5.js-website repository to your laptop.
-3. Go to the repository's directory `$ Users/your_user/your_directory/p5.js-website/` and run `npm install` to install all the packages and dependencies for the website.
-4. Check if the packages are correctly installed by typing `npm run watch`.
-5. This should open a window in your browser with the site running at http://localhost:9000.
-6. Set `github.com/processing/p5.js-website` as the upstream of your local repository following this [tutorial](https://help.github.com/articles/configuring-a-remote-for-a-fork/).
+1. Install node.js by following the instructions [here](https://nodejs.org/en/download/).
+2. [Fork](https://help.github.com/articles/fork-a-repo/) the p5.js-website repository to your Github account.
+3. Open your command-line interface and [clone](https://help.github.com/articles/cloning-a-repository/) your fork of the p5.js-website repository to your laptop.
+4. Go to the repository's directory `$ Users/your_user/your_directory/p5.js-website/` and run `npm install` to install all the packages and dependencies for the website.
+5. Check if the packages are correctly installed by typing `npm run watch`.
+6. This should open a window in your browser with the site running at http://localhost:9000.
+7. Set `github.com/processing/p5.js-website` as the upstream of your local repository following this [tutorial](https://help.github.com/articles/configuring-a-remote-for-a-fork/).
 
 ## Before submitting a Pull Request
 1. Sync your fork to keep it up-to-date with the upstream repository following this [tutorial](https://help.github.com/articles/syncing-a-fork/).
