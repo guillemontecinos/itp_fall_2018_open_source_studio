@@ -26,7 +26,7 @@ If you want to contribute with p5.js website translations you are in the right p
 
 
 ## Setting up before start your contribution
-*Please do this only once before you start working.*
+*Please do this only once before you start your contribution.*
 1. Install node.js by following the instructions [here](https://nodejs.org/en/download/).
 2. [Fork](https://help.github.com/articles/fork-a-repo/) the p5.js-website repository to your Github account.
 3. Open your command-line interface and [clone](https://help.github.com/articles/cloning-a-repository/) your fork of the p5.js-website repository to your laptop.
