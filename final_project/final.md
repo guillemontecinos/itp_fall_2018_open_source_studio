@@ -16,6 +16,10 @@ You are required to link to your final project documentation from the [Final Pro
 
 _What did you deliver? Link to all relevant project pages (GitHub repo, pull request, documentation site, etc.)._
 
+* Color
+* Coordinate System
+* i18n_contribution
+
 ## Define the problem you addressed and greater landscape
 
 _Describe the community around your project. What is the current state of things? What issue do you wish to solve and why? What need does this project fill? What similar projects did you refer to / build off of? What sets your project apart?_
