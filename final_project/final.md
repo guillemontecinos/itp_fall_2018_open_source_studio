@@ -49,7 +49,14 @@ Other key issue I had to face was to understand how the website building process
 Finally and due to breaking the building process key, submitting my Pull Request was quite complicated because in one occasion I submitted a broken version of the website, which couldn't be fixed. That experience was a great source of learning because I had to deal with solving issues -I was strongly supported by Aarón- at the same time I tried to do it as fast as possible because other commits were not able to be built due to my broken changes.
 
 4. _How did your final development line up with your proposal timeline._
+
+The final outcome of this project matched the original plan in terms of working in the tutorial for translation contributing. It's important to say that it was mainly pushed by Dan because otherwise I'd have kept translating content from English to Spanish. In terms of the first kind of deliverables I just translated Color and Coordinate System pages, whilst in terms of documenting I completed the task.
+
 5. _What was your biggest success? What was your biggest failure?_
+
+My biggest success was to understand the logic that underlies the website's framework and to be able to apply the git/GitHub functionalities learned during the class to the collaboration itself.
+
+On the other hand my biggest failure was to break the website after submitting a Pull Request without checking before if the page building process worked properly. Despite of this, it was a huge opportunity to improve my collaboration.
 
 ## Accessibility
 
