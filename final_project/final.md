@@ -24,7 +24,9 @@ _Describe the community around your project. What is the current state of things
 
 This project attempted to address the problem of creating and maintaining translations to new languages other than English of the p5.js website. As an open-source and community-led project p5.js doesn't count with the resources to maintain and incorporate multiple languages automatically or by contributors.
 
-Originally this project goals were: 1) to review existing Spanish translations of the website and translate pages that haven been translated yet, and 2) develop a documentation document that could facilitate new contributions. Before this project the only resource and guidelines to learn how to contribute in new or existing translations was the repository's [README](https://github.com/processing/p5.js-website) file which -even it contains essential information- is brief and leaves too many points without explanation. This idea came after a collaboration I did last year with Aarón Montoya-Moraga when he translated both the website and the book to Spanish.
+This project goals were: 1) to review existing Spanish translations of the website and translate pages that haven been translated yet, and 2) develop a documentation document that could facilitate new contributions. Before this project the only resource and guidelines to learn how to contribute in new or existing translations was the repository's [README](https://github.com/processing/p5.js-website) file which -even it contains essential information- is brief and leaves too many points without explanation.
+
+This idea came after a collaboration I did last year with Aarón Montoya-Moraga when he translated both the website and the book to Spanish.
 
 ## Implementation
 1. _What themes, readings, and discussion from [the first half of this course](https://github.com/Open-Source-Studio-at-ITP/Syllabus) were most relevant to your work on this project? Version Control, Community / Code of Conduct, Unit Testing, Documentation and Accessibility, Software Licensing, Project Funding_
