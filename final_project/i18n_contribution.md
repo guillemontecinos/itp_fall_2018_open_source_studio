@@ -102,7 +102,7 @@ p5.js-website/
 
 ## Start a new translation
 1. Define a two-letter abbreviation for your language. You can use this [page](https://www.abbreviations.com/acronyms/LANGUAGES2L) as a guide.
-2. Add an entry with the new language abbreviation at `package.json` under the `languages` entry -located under the repository root directory.
+2. Add an entry with the new language abbreviation at `package.json` to the `languages` category -located under the repository root directory.
 ```JSON
 "languages": [
   "en",
