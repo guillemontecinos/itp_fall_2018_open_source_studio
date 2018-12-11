@@ -41,6 +41,13 @@ The technical implementation of this project consisted in:
 * Pull request my changes to the base repository
 
 3. _What challenges, stumbling blocks, difficulties did you encounter along the way._
+
+One great challenge of this project was to understand how the p5.js website work and how its files are organized, because even there is a documentation section in the README file, it is so brief and there are subtle relations between files that just can be understood by putting your hands on the code.
+
+Other key issue I had to face was to understand how the website building process was and how it should be carried out. It was important because as during this project important modifications were carried out and the building process got broken many times.
+
+Finally and due to breaking the building process key, submitting my Pull Request was quite complicated because in one occasion I submitted a broken version of the website, which couldn't be fixed. That experience was a great source of learning because I had to deal with solving issues -I was strongly supported by Aarón- at the same time I tried to do it as fast as possible because other commits were not able to be built due to my broken changes.
+
 4. _How did your final development line up with your proposal timeline._
 5. _What was your biggest success? What was your biggest failure?_
 
