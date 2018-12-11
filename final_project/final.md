@@ -28,6 +28,7 @@ This idea came after a collaboration I did last year with Aarón Montoya-Moraga 
 
 ## Implementation
 1. _What themes, readings, and discussion from [the first half of this course](https://github.com/Open-Source-Studio-at-ITP/Syllabus) were most relevant to your work on this project? Version Control, Community / Code of Conduct, Unit Testing, Documentation and Accessibility, Software Licensing, Project Funding_
+Due to this collaboration was a pure open-source contribution -because discussions were held with other community members- the entire first part of the course was very useful. In one hand soft skills in open-source that were learned led me to kindly deal with discussions with other contributors. On the other hand, technical skills as the use of git and GitHub made this process very easy. Examples of this were the assignments in which we had to fork a repository, commit changes from a local branch and then submit a Pull Request. That was incredibly useful for this project. 
 2. _Describe the technical details about your implementation and development process._
 3. _What challenges, stumbling blocks, difficulties did you encounter along the way._
 4. _How did your final development line up with your proposal timeline._
