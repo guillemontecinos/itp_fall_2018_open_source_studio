@@ -1,6 +1,6 @@
 # Contributing to p5.js website internationalization (i18n)
 
-If you want to contribute with p5.js website translations you are in the right place. The translation of the p5.js website to languages other than English is part of its internationalization -abbreviated [*i18n*](https://en.wikipedia.org/wiki/Internationalization_and_localization)- process. You can be improve content that has been already translated -at the reference, examples or other pages within the website- as well as start a new language translation. Some topics of this documentation were taken from the README.md file of this repo.
+If you want to contribute with p5.js website translations you are in the right place. The translation of the p5.js website to languages other than English is part of its internationalization -abbreviated [*i18n*](https://en.wikipedia.org/wiki/Internationalization_and_localization)- process. You can improve content that has been already translated -at the reference, examples or other pages within the website- as well as start a new language translation. Some topics of this documentation were taken from the README.md file of this repo.
 
 ## Table of Contents
 
@@ -16,21 +16,21 @@ If you want to contribute with p5.js website translations you are in the right p
 
 ## How the website works
 1. Due to internationalization (i18n) this website is built from templates that retrieve the text content from data files
-2. There are three kind of pages that work different:
+2. There are three kind of pages and each works differently:
    * [Reference](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-reference): Pages are built in English and swapped to other languages using JS on the front-end. Translation content is stored in a JSON object.
    * [Examples](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-examples): Examples pages are built from from templates handlebars with handlebars, while examples are stored in JS files.
    * [Other](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-all-pages-except-reference-and-examples): Pages are built from templates in which handlebars point to the content in the actual language when rendered.
 3. Every time a modification is submitted the website is rendered again.
-4. Built web is stored under `dist/` directory whilst data and templates are stored under `src/` directory. For further information check [File Structure](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#file-structure).
+4. Built web is stored under `dist/` directory whilst data and templates are stored under `src/` directory. For further information check the [File Structure](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#file-structure).
 5. When collaborating just modify files under `src/`, never touch `dist/`
 
 
 ## Setting up before start your contribution
 *Please do this only once before you start your contribution.*
 1. Install node.js by following the instructions [here](https://nodejs.org/en/download/).
-2. [Fork](https://help.github.com/articles/fork-a-repo/) the p5.js-website repository to your Github account. For that hit the *Fork* button on the upper-right side of the p5.js-website Github repo. This will automatically open your fork repo on Github.
+2. [Fork](https://help.github.com/articles/fork-a-repo/) the p5.js-website repository to your Github account. Click the *Fork* button on the upper-right side of the p5.js-website Github repo. This will automatically open your fork repo on Github.
 ![](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/assets/fork.png)
-3. On your fork hit the green *Clone or download* button. It will display a bar from where you can copy your `repo_URL`.
+3. On your fork click the green *Clone or download* button. It will display a bar from where you can copy your `repo_URL`.
 ![](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/assets/clone.png)
 4. Open your command-line interface (CLI) and [clone](https://help.github.com/articles/cloning-a-repository/) your fork of the p5.js-website repository to `your_directory` on your laptop by typing:
 ```bash
@@ -119,7 +119,7 @@ p5.js-website/
 ### Translation of all pages except Reference and Examples
 Each website is written in [.hbs](https://www.npmjs.com/package/hbs) format -files created with Handlebars and written using HTML rules- using handlers to access the i18n data of each language and render. Hbs files are stored under `src/template/pages`.
 
-The i18n data is stored in [.yml](https://en.wikipedia.org/wiki/YAML) files in the `src/data` folder of this repo. For example, under the above mentioned path the .yml files for Ensglish, Spanish and Chinese can be found as follows:
+The i18n data is stored in [.yml](https://en.wikipedia.org/wiki/YAML) files in the `src/data` folder of this repo. For example, under the above mentioned path the .yml files for English, Spanish and Chinese can be found as follows:
 
 ```
 en.yml
