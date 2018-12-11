@@ -16,8 +16,8 @@ You are required to link to your final project documentation from the [Final Pro
 
 _What did you deliver? Link to all relevant project pages (GitHub repo, pull request, documentation site, etc.)._
 
-* [Color page translation to Spanish](https://p5js.org/es/learn/color.html)
-* [Coordinate System page translation to Spanish](https://p5js.org/es/learn/coordinate-system-and-shapes.html)
+* [Color page translation to Spanish](https://p5js.org/es/learn/color.html). Merged under [#297](https://github.com/processing/p5.js-website/pull/297).
+* [Coordinate System page translation to Spanish](https://p5js.org/es/learn/coordinate-system-and-shapes.html). Merged under [#297](https://github.com/processing/p5.js-website/pull/297).
 * [Contributing to p5.js website internationalization (i18n) documentation](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md)
 
 ## Define the problem you addressed and greater landscape
