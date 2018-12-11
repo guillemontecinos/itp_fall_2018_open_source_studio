@@ -10,7 +10,7 @@ You are required to link to your final project documentation from the [Final Pro
 
 ## Team Members
 
-* [Guillermo Montecinos](github.com/guillemontecinos)
+* [Guillermo Montecinos](https://github.com/guillemontecinos)
 
 ## Deliverables / Work Product
 
