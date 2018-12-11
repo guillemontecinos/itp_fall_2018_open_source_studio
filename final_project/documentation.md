@@ -145,7 +145,7 @@ A user testing session was carried out during the last meeting of the class. In 
 
 Thanks for your collaboration! 😄
 
-**Directions**
+##### Directions
 1. Follow this [tutorial](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md) to set up the repo. Fork [my fork](https://github.com/guillemontecinos/p5.js-website) of the base repo.
 2. go to `src/data/es.yml` and make the following modifications (further information [here](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-all-pages-except-reference-and-examples)):
 * Change the content of the `interactivity-title` from "Interactivity" to "Interacción"
@@ -153,7 +153,7 @@ Thanks for your collaboration! 😄
 3. Commit your changes to your repo
 4. Submit a Pull Request to my fork.
 
-**Evaluation**
+##### Evaluation
 If you detect any need of improvement or advice please open an Issue under this repo.
 
 ## Week 5
