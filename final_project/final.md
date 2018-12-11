@@ -4,17 +4,13 @@ You are required to link to your final project documentation from the [Final Pro
 
 ## Project Title
 
-*This project consist in a collaboration with the internationalization (i18n) of the p5.js website. My project consisted in the translation of content to Spanish and the develop of a documentation document that will gather all the information needed for future collaborations on website translation
-
- will also be written for new translations based on the existing translation documentation in the p5.js Github repo. This project will be developed for first-time contributors and non-English speakers.*
+*This project consist in a collaboration with the internationalization (i18n) of the p5.js website. It consisted in the translation of content to Spanish and the develop of a documentation document that will gather all the information needed for future collaborations on website translation, focused on first-time contributors and non-English speakers.*
 
 ## Team Members
 
 * [Guillermo Montecinos](https://github.com/guillemontecinos)
 
 ## Deliverables / Work Product
-
-_What did you deliver? Link to all relevant project pages (GitHub repo, pull request, documentation site, etc.)._
 
 * [Color page translation to Spanish](https://p5js.org/es/learn/color.html). Merged under [#297](https://github.com/processing/p5.js-website/pull/297).
 * [Coordinate System page translation to Spanish](https://p5js.org/es/learn/coordinate-system-and-shapes.html). Merged under [#297](https://github.com/processing/p5.js-website/pull/297).
