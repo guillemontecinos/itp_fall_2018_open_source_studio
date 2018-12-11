@@ -98,11 +98,11 @@ p5.js-website/
     * `layouts/` – default.hbs is main page template
     * `pages/` – Contains each of the pages of the p5 site, these get inserted in `{{> body }}` tag of default layout.
     * `partials/` – These are reusable pieces that can get added to any page or layout, they correspond to other `{{> filename }}` tags in the pages or default layout.
-* `Gruntfile.js` – This file contains all the tasks for using assemble and YAML to generate the final, static site. It uses the taskrunner [grunt](http://gruntjs.com/).
+* `Gruntfile.js` – This file contains all the tasks for using assemble and YAML to generate the final, static site. It uses the task runner [grunt](http://gruntjs.com/).
 
 ## Start a new translation
 1. Define a two-letter abbreviation for your language. You can use this [page](https://www.abbreviations.com/acronyms/LANGUAGES2L) as a guide.
-2. Add an entry with the new language abbreviation at `package.json` -located under the repository root directory.
+2. Add an entry with the new language abbreviation at `package.json` under the `languages` entry -located under the repository root directory.
 ```JSON
 "languages": [
   "en",
