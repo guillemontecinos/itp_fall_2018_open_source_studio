@@ -20,8 +20,6 @@ All the documentation of this project can be found [here](https://github.com/gui
 
 ## Define the problem you addressed and greater landscape
 
-_Describe the community around your project. What is the current state of things? What issue do you wish to solve and why? What need does this project fill? What similar projects did you refer to / build off of? What sets your project apart?_
-
 This project attempted to address the problem of creating and maintaining translations to new languages other than English of the p5.js website. As an open-source and community-led project p5.js doesn't count with the resources to maintain and incorporate multiple languages automatically or by contributors.
 
 This project goals were: 1) to review existing Spanish translations of the website and translate pages that haven been translated yet, and 2) develop a documentation document that could facilitate new contributions. Before this project the only resource and guidelines to learn how to contribute in new or existing translations was the repository's [README](https://github.com/processing/p5.js-website) file which -even it contains essential information- is brief and leaves too many points without explanation.
