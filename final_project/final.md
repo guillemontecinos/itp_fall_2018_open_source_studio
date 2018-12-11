@@ -1,6 +1,6 @@
 # Final Project Documentation Template (WIP)
 
-You are required to link to your final project documentation from the [Final Project Presentation](final-presentation.md page). You may choose to document your final project in whatever format you see fit (blog post, markdown page, etc.)
+All the documentation of this project can be found [here](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/documentation.md).
 
 ## Project Title
 
