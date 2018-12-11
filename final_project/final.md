@@ -1,5 +1,7 @@
 # Final Project Documentation Template (WIP)
 
+**Tracking of p5.js Spanish website translation and development of a translation guide (for any language)**
+
 All the documentation of this project can be found [here](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/documentation.md).
 
 ## Project Title
