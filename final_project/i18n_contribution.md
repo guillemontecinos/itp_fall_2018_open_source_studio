@@ -39,7 +39,7 @@ $ git clone repo_URL
 5. Go to the repository's directory `$ Users/your_user/your_directory/p5.js-website/` and run `$ npm install` to install all the packages and dependencies for the website.
 6. Check if the packages are correctly installed by typing `npm run watch`.
 7. This should open a window in your browser with the site running at http://localhost:9000.
-8. Set `github.com/processing/p5.js-website` as the upstream of your local. Type the following to list the configured remote for your fork:
+8. Set `github.com/processing/p5.js-website` as the upstream of your local. Type the following to list the configured remote for your fork (or follow this [tutorial](https://help.github.com/articles/configuring-a-remote-for-a-fork/)):
 ```bash
 $ git remote -v
 origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
@@ -60,9 +60,13 @@ upstream  https://github.com/processing/p5.js-website.git (push)
 
 ## Before submitting a Pull Request
 *Please do this every time you submit a PR.*
-1. Sync your fork to keep it up-to-date with the upstream repository following this [tutorial](https://help.github.com/articles/syncing-a-fork/).
+1. Sync your fork to keep it up-to-date with the upstream repository following the next commands or this [tutorial](https://help.github.com/articles/syncing-a-fork/). First fetch the upstream repo and its commits -commits will be stored on your local fork- and then merge changes form upstream to your local:
+```bash
+$ git fetch upstream
+$ git merge upstream/master
+```
 2. Make changes only at files under the `src/` directory.
-3. Check if your changes are correct and don't break the website render by typing `npm run watch`.
+3. Check if your changes are correct and don't break the website render by typing `$ npm run watch`.
 4. Commit only the files you have changed, type:
 ```bash
 $ git add src/
