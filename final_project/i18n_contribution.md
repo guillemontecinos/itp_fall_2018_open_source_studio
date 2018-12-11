@@ -36,8 +36,14 @@ If you want to contribute with p5.js website translations you are in the right p
 ```bash
 $ git clone repo_URL
 ```
-5. Go to the repository's directory `$ Users/your_user/your_directory/p5.js-website/` and run `$ npm install` to install all the packages and dependencies for the website.
-6. Check if the packages are correctly installed by typing `npm run watch`.
+5. Go to the repository's directory `$ Users/your_user/your_directory/p5.js-website/` and install all the packages and dependencies for the website by typing:
+```batch
+$ npm install
+```
+6. Check if the packages are correctly installed by typing:
+```batch
+npm run watch
+```
 7. This should open a window in your browser with the site running at http://localhost:9000.
 8. Set `github.com/processing/p5.js-website` as the upstream of your local. Type the following to list the configured remote for your fork (or follow this [tutorial](https://help.github.com/articles/configuring-a-remote-for-a-fork/)):
 ```bash
@@ -95,9 +101,22 @@ p5.js-website/
 * `Gruntfile.js` – This file contains all the tasks for using assemble and YAML to generate the final, static site. It uses the taskrunner [grunt](http://gruntjs.com/).
 
 ## Start a new translation
+1. Define a two-letter abbreviation for your language. You can use this [page](https://www.abbreviations.com/acronyms/LANGUAGES2L) as a guide.
+2. Add an entry with the new language abbreviation at `package.json` -located under the repository root directory.
+```JSON
+"languages": [
+  "en",
+  "es",
+  "zh-Hans",
+  "new language here"
+],
+```
+3. Duplicate `en.yml` -stored under `src/data`- and name it `language_abbreviation.yml`.
+
+
 1. Duplicate `[en.yml]`(https://github.com/processing/p5.js-website/blob/master/src/data/en.yml) in `src/data` and name it `{languageabbreviation}.yml`. For example `es.yml`. See this page for [two-letter language abbreviations](https://www.abbreviations.com/acronyms/LANGUAGES2L).
 2. Duplicate `[es.json]`(https://github.com/processing/p5.js-website/blob/master/src/data/reference/es.json) and name it `{languageabbreviation}.json`.
-3. Add an entry with the language abbreviation [here](https://github.com/processing/p5.js-website/blob/master/Gruntfile.js#L90).
+
 
 
 ## Working on existing translations
