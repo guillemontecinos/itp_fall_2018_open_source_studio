@@ -118,7 +118,47 @@ Instead of this, the color-related handler must be added to the `learn` list of 
 * Track, translation and correction of Spanish p5.js examples (2/2)
 * Write TRANSLATION.md (1/2)
 
+### Advances
+
+#### Mentoring Meeting
+A meeting was held with @montoyamoraga in which the work carried out thus far was discussed. The main conclusion was to make the documentation file an accessible and well explained resource, that could be followed even for people with low experience using GitHub. That meeting notes and summary were documented in this [issue](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/issues/4), but the main points are as follow:
+
+- change title to contributing or i18n or related
+- add instructions for when you make a mistake, start over again, as in, delete your fork, fork again, etc.
+- add screenshots
+- add https://help.github.com/articles/syncing-a-fork/ instructions of setting up your fetch upstream.
+be very explicit on making new pull requests only include src/ files, nothing else.
+- be very explicit on making the difference between setup that only happens once on your machine or fork, and things that happen all the time
+- Some structure:
+1. Intro: how the website works
+2. section 0: setup that only happens once
+3. section 1: everytime you do a pull request you do X
+- remind that issues are welcome, and that pull request is a lot to ask maybe
+- be encouraging and use "you", second person, paraphrase from p5.js community statement
+- explain how i18n works for pages in general and for reference
+- talk about i18n handlers and placeholders
+
+Most of the changes proposed during the meeting were included in the final version of this project.
+
+#### User test
+A user testing session was carried out during the last meeting of the class. In that opportunity the documentation file was followed and reviewed by @nicolaspe and @camilleweins, according to the directions opened in this [issue](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/issues/5):
+
+Thanks for your collaboration! 😄
+
+## Directions
+1. Follow this [tutorial](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md) to set up the repo. Fork [my fork](https://github.com/guillemontecinos/p5.js-website) of the base repo.
+2. go to `src/data/es.yml` and make the following modifications (further information [here](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/i18n_contribution.md#translation-of-all-pages-except-reference-and-examples)):
+* Change the content of the `interactivity-title` from "Interactivity" to "Interacción"
+* Change the content of the `interactivity`handler from "Introduction to interactivity with the mouse and keyboard." to "Introducción a la interacción usando el ratón y el teclado."
+3. Commit your changes to your repo
+4. Submit a Pull Request to my fork.
+
+## Evaluation
+If you detect any need of improvement or advice please open an Issue under this repo.
+
 ## Week 5
 ### Week 5 Goals
 * Write TRANSLATION.md (2/2)
 * Final documentation
+
+### Advances
