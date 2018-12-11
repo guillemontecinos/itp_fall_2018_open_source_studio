@@ -1,10 +1,12 @@
-# Final Project Documentation Template
+# Final Project Documentation Template (WIP)
 
 You are required to link to your final project documentation from the [Final Project Presentation](final-presentation.md page). You may choose to document your final project in whatever format you see fit (blog post, markdown page, etc.)
 
 ## Project Title
 
-_Write an abstract -- describe your idea in a short paragraph, 250 words maximum._
+*This project consist in a collaboration with the internationalization (i18n) of the p5.js website. My project consisted in the translation of content to Spanish and the develop of a documentation document that will gather all the information needed for future collaborations on website translation
+
+ will also be written for new translations based on the existing translation documentation in the p5.js Github repo. This project will be developed for first-time contributors and non-English speakers.*
 
 ## Team Members
 
