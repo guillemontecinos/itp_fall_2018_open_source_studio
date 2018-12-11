@@ -141,7 +141,7 @@ be very explicit on making new pull requests only include src/ files, nothing el
 Most of the changes proposed during the meeting were included in the final version of this project.
 
 #### User test
-A user testing session was carried out during the last meeting of the class. In that opportunity the documentation file was followed and reviewed by @nicolaspe and @camilleweins, according to the directions opened in this [issue](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/issues/5):
+A user testing session was carried out during the last meeting of the class. In that opportunity the documentation file was followed and reviewed by [@nicolaspe](github.com/nicolaspe) and [@camilleweins](github.com/camilleweins), according to the directions opened in this [issue](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/issues/5):
 
 Thanks for your collaboration! 😄
 
@@ -162,3 +162,7 @@ If you detect any need of improvement or advice please open an Issue under this 
 * Final documentation
 
 ### Advances
+Changes proposed during the mentoring meeting and collected during the user testing were applied to the final version of the documentation of translation file. Most important changes were:
+* File name was changes from "translating.md" to "i18n_contribution.md"
+* File structure was modified in order to explain at the beginning the website structure
+* Screenshots were added and git commands were more clearly explained
