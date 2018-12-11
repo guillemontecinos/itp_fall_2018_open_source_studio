@@ -73,7 +73,8 @@ $ git add src/
 $ git commit -m "add a message to your commit"
 $ git push
 ```
-5. Commit to your repository at your github account and create a new [Pull Request](https://github.com/processing/p5.js-website/wiki/Pull-requests)
+5. Commit to your repository at your github account and create a new [Pull Request](https://github.com/processing/p5.js-website/wiki/Pull-requests). Click the *Pull Reques* tab on your fork page and then click the green button *New Pull Request*.
+![](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/assets/pull_request.png)
 
 ## File Structure
 Under this repo there are two directories in which we have to focus:
