@@ -111,10 +111,10 @@ p5.js-website/
   "new language here"
 ],
 ```
-3. Duplicate `en.yml` -stored under `src/data`- and name it `language_abbreviation.yml`.
+3. Duplicate `en.yml` -stored under `src/data/`- and name it `language_abbreviation.yml`. For example, when the Spanish version was created it was names `es.yml`.
+4. Duplicate `es.json` -stored under `src/data/reference/`- and name it `language_abbreviation.json`. Unlike the previous step `es.json` must be copied because there's no a `en.js` for the same reason explained in [How the website works](#how-the-website-works)
 
 
-1. Duplicate `[en.yml]`(https://github.com/processing/p5.js-website/blob/master/src/data/en.yml) in `src/data` and name it `{languageabbreviation}.yml`. For example `es.yml`. See this page for [two-letter language abbreviations](https://www.abbreviations.com/acronyms/LANGUAGES2L).
 2. Duplicate `[es.json]`(https://github.com/processing/p5.js-website/blob/master/src/data/reference/es.json) and name it `{languageabbreviation}.json`.
 
 
