@@ -1,4 +1,4 @@
-# Final Project Documentation Template (WIP)
+# Final Project Documentation
 
 All the documentation of this project can be found [here](https://github.com/guillemontecinos/itp_fall_2018_open_source_studio/blob/master/final_project/documentation.md).
 
