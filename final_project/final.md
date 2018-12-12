@@ -64,8 +64,12 @@ _What challenges did you encounter in terms of Web Content Accessibility Require
 
 ## Mentoring
 
-_Who did you receive help and mentorship from? What was most useful to you during this process?_
+This project was mentored by [Aarón Montoya-Moraga](https://github.com/montoyamoraga), graduated from NYU ITP on 2017, former Resident at the school and contributor at the Processing Foundation.
+
+Aarón has experience on p5.js internationalization since he translated to Spanish both the website and the book. We had at least one meeting per week in which we discussed the week progress and the goals for the next one. His advice was particularly useful when organizing and defining the goals of the translation documentation.
 
 ## Longer-Term Goals
 
 _What do you see as the longer term plan for this project and your project involvement?_
+
+I see this project in the long term as a useful tool for future i18n contributions. The documentation elaborated within this project will be published in the p5.js-website repository -most probably- as wiki page. Apart from that I expect to apply to a Processing Foundation Fellowship to work in the p5.js website translation tracking system, area of the site in which I didn't work but is an opportunity to improve the automation of the page maintenance.
