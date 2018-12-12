@@ -60,7 +60,7 @@ On the other hand my biggest failure was to break the website after submitting a
 
 ## Accessibility
 
-_What challenges did you encounter in terms of Web Content Accessibility Requirements: [see the Accessibility assignment as a reference](https://github.com/Open-Source-Studio-at-ITP/Syllabus/blob/source/accessibility-assignment.md#instructions)._
+In term of accessibility this project addresses the problem of access to coding in countries where English is not fluently spoken and therefore language is a barrier.
 
 ## Mentoring
 
